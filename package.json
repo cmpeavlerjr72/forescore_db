@@ -1,7 +1,6 @@
 {
   "name": "forescore-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +13,14 @@
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "pg": "^8.16.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmpeavlerjr72/forescore_db.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cmpeavlerjr72/forescore_db/issues"
+  },
+  "homepage": "https://github.com/cmpeavlerjr72/forescore_db#readme",
+  "description": ""
 }
