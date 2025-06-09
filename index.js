@@ -2,6 +2,8 @@ import express from 'express';
 import cors from 'cors';
 import pg from 'pg';
 import dotenv from 'dotenv';
+import tripsRouter from './routes/trips.js'; // adjust path if needed
+
 
 dotenv.config();
 
