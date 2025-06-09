@@ -1,14 +1,24 @@
-// index.js
-const express = require('express');
-const cors = require('cors');
-require('dotenv').config();
-const tripsRouter = require('./routes/trips');
+import express from 'express';
+import cors from 'cors';
+import pg from 'pg';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
-
+const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
+
+// Set up PostgreSQL connection
+const { Pool } = pg;
+
+const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false, // Needed for Render external PostgreSQL connections
+  },
+});
 
 app.use('/api', tripsRouter);
 
