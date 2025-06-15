@@ -14,8 +14,17 @@ const io = new Server(server, {
 });
 
 const PORT = process.env.PORT || 5001;
+const allowedOrigins = [
+    'http://localhost:5173',     // Vite dev
+    'http://127.0.0.1:5173',     // Alt Vite dev
+    'https://forescoreapp.com',  // Your custom domain
+    'https://forescore.onrender.com' // Render Url
+  ];
 
-app.use(cors());
+app.use(cors({
+    origin: allowedOrigins,
+    credentials: true,
+}));
 app.use(bodyParser.json());
 
 const DATA_PATH = './data';
