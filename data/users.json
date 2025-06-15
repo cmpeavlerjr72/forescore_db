@@ -13,7 +13,9 @@
       "password": "$2b$10$V/B5sGNcPtwABdeOeQ8u/u16nLlP5NRv3/JMIf7lhtZxaJdtENW5y",
       "name": "testinggg",
       "handicap": 10.2,
-      "trips": [],
+      "trips": [
+        "TRIP_SQ1ESC"
+      ],
       "friends": []
     }
   ]
