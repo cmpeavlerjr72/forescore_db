@@ -196,6 +196,20 @@ app.post('/users/login', async (req, res) => {
     }
     });
 
+app.get('/users/:username', (req, res) => {
+    const { username } = req.params;
+    const usersData = readJsonFile(FILES.users, { users: [] });
+    
+    const user = usersData.users.find((u) => u.username === username);
+    if (!user) {
+        return res.status(404).json({ error: 'User not found' });
+    }
+    
+    // Don't send the password hash back
+    const { password, ...userWithoutPassword } = user;
+    res.json(userWithoutPassword);
+    });
+
 app.post('/users/:username/add-trip', (req, res) => {
   const { username } = req.params;
   const { tripId } = req.body;
