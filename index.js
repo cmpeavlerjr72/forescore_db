@@ -211,19 +211,24 @@ app.get('/users/:username', (req, res) => {
     });
 
 app.post('/users/:username/add-trip', (req, res) => {
-  const { username } = req.params;
-  const { tripId } = req.body;
-  const users = readJsonFile(FILES.users, { users: {} });
-
-  if (!users[username]) return res.status(404).json({ error: 'User not found' });
-  if (!users[username].trips.includes(tripId)) {
-    users[username].trips.push(tripId);
-    writeJsonFile(FILES.users, users);
-    syncToGitHub(FILES.users, true);
-  }
-
-  res.json({ message: 'Trip added to user', trips: users[username].trips });
-});
+    const { username } = req.params;
+    const { tripId } = req.body;
+    
+    const data = readJsonFile(FILES.users, { users: [] });
+    const user = data.users.find((u) => u.username === username);
+    
+    if (!user) {
+        return res.status(404).json({ error: 'User not found' });
+    }
+    
+    if (!user.trips.includes(tripId)) {
+        user.trips.push(tripId);
+        writeJsonFile(FILES.users, data);
+        syncToGitHub(FILES.users, true);
+    }
+    
+    res.json(user);
+    });
 
 // ========== SOCKET.IO ==========
 io.on('connection', (socket) => {
