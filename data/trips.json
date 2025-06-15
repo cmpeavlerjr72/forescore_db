@@ -807,6 +807,128 @@
           ]
         }
       ]
+    },
+    "TRIP_30GFZL": {
+      "tripId": "TRIP_30GFZL",
+      "numTeams": 2,
+      "playersPerTeam": 4,
+      "numRounds": 2,
+      "courses": [
+        "True Blue",
+        "True Blue"
+      ],
+      "scoringMethods": [
+        "match",
+        "match"
+      ],
+      "teams": [
+        {
+          "name": "Team 1",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Player 3",
+              "scores": [
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0
+              ]
+            },
+            {
+              "id": 4,
+              "name": "Player 4",
+              "scores": [
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 2",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Player 3",
+              "scores": [
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0
+              ]
+            },
+            {
+              "id": 4,
+              "name": "Player 4",
+              "scores": [
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
     }
   }
 }
