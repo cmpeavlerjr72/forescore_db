@@ -6,6 +6,8 @@ import cors from 'cors';
 import bodyParser from 'body-parser';
 import { Server } from 'socket.io';
 import http from 'http';
+import bcrypt from 'bcrypt';
+
 
 const app = express();
 const server = http.createServer(app);
@@ -146,41 +148,53 @@ app.post('/trips', (req, res) => {
 });
 
 // ========== USER ROUTES ==========
-app.post('/users/register', (req, res) => {
+app.post('/users/register', async (req, res) => {
     const { username, password, name, handicap } = req.body;
-    const users = readJsonFile(FILES.users, { users: {} });
-  
     if (!username || !password || !name || handicap === undefined) {
       return res.status(400).json({ error: 'Missing required user data' });
     }
   
-    if (users[username]) {
+    const usersData = readJsonFile(FILES.users, { users: [] });
+    const existingUser = usersData.users.find((u) => u.username === username);
+    if (existingUser) {
       return res.status(409).json({ error: 'Username already exists' });
     }
   
-    users[username] = {
-      password,
-      name,
-      handicap,
-      trips: [],
-      friends: []
-    };
-  
-    writeJsonFile(FILES.users, users);
-    syncToGitHub(FILES.users, true);
-    res.status(201).json({ message: 'User registered successfully' });
+    try {
+      const hashedPassword = await bcrypt.hash(password, 10); // 10 salt rounds
+      const newUser = {
+         username, 
+         password: hashedPassword, 
+         name, 
+         handicap, 
+         trips: [],
+         friends: [] };
+      usersData.users.push(newUser);
+      writeJsonFile(FILES.users, usersData);
+      syncToGitHub(FILES.users, true);
+      res.status(201).json({ message: 'User registered' });
+    } catch (err) {
+      console.error('Error registering user:', err);
+      res.status(500).json({ error: 'Failed to register user' });
+    }
   });
 
-app.post('/users/login', (req, res) => {
-  const { username, password } = req.body;
-  const users = readJsonFile(FILES.users, { users: {} });
+app.post('/users/login', async (req, res) => {
+    const { username, password } = req.body;
+    const usersData = readJsonFile(FILES.users, { users: [] });
+    const user = usersData.users.find((u) => u.username === username);
+    if (!user) return res.status(404).json({ error: 'User not found' });
 
-  if (!users[username] || users[username].password !== password) {
-    return res.status(401).json({ error: 'Invalid credentials' });
-  }
+    try {
+        const isMatch = await bcrypt.compare(password, user.password);
+        if (!isMatch) return res.status(401).json({ error: 'Incorrect password' });
 
-  res.json({ message: 'Login successful', trips: users[username].trips });
-});
+        res.json({ message: 'Login successful', user });
+    } catch (err) {
+        console.error('Error verifying password:', err);
+        res.status(500).json({ error: 'Login error' });
+    }
+    });
 
 app.post('/users/:username/add-trip', (req, res) => {
   const { username } = req.params;
