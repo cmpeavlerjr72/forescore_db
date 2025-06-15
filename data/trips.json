@@ -1193,6 +1193,21 @@
           ]
         }
       ]
+    },
+    "TRIP_SQ1ESC": {
+      "tripId": "TRIP_SQ1ESC",
+      "numTeams": 2,
+      "playersPerTeam": 4,
+      "numRounds": 2,
+      "scoringMethods": [
+        "match",
+        "match"
+      ],
+      "courses": [
+        "True Blue",
+        "True Blue"
+      ],
+      "teams": []
     }
   }
 }
