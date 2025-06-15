@@ -1,0 +1,10 @@
+{
+  "users": {},
+  "test1": {
+    "password": "test123",
+    "name": "testing",
+    "handicap": 10.3,
+    "trips": [],
+    "friends": []
+  }
+}
