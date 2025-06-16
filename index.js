@@ -20,6 +20,7 @@ const allowedOrigins = [
     'http://localhost:5173',     // Vite dev
     'http://127.0.0.1:5173',     // Alt Vite dev
     'https://forescoreapp.com',  // Your custom domain
+    'https://www.forescoreapp.com', // Your custom domain
     'https://forescore.onrender.com' // Render Url
   ];
 
