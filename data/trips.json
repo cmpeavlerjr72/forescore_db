@@ -1354,6 +1354,21 @@
           ]
         }
       ]
+    },
+    "TRIP_19PYXO": {
+      "tripId": "TRIP_19PYXO",
+      "numTeams": 2,
+      "playersPerTeam": 4,
+      "numRounds": 2,
+      "scoringMethods": [
+        "match",
+        "match"
+      ],
+      "courses": [
+        "Bartram Trail",
+        "True Blue"
+      ],
+      "teams": []
     }
   }
 }
