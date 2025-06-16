@@ -168,7 +168,7 @@ app.post('/users/register', async (req, res) => {
          password: hashedPassword, 
          name, 
          handicap, 
-         trips: [],
+         trips: {},
          friends: [] };
       usersData.users.push(newUser);
       writeJsonFile(FILES.users, usersData);
@@ -215,20 +215,66 @@ app.post('/users/:username/add-trip', (req, res) => {
     const { username } = req.params;
     const { tripId } = req.body;
     
-    const data = readJsonFile(FILES.users, { users: [] });
-    const user = data.users.find((u) => u.username === username);
+    const usersData = readJsonFile(FILES.users, { users: [] });
+    const tripsData = readJsonFile(FILES.trips, { trips: {} });
+    
+    const user = usersData.users.find((u) => u.username === username);
+    const trip = tripsData.trips[tripId];
     
     if (!user) {
         return res.status(404).json({ error: 'User not found' });
     }
     
-    if (!user.trips.includes(tripId)) {
-        user.trips.push(tripId);
-        writeJsonFile(FILES.users, data);
+    if (!trip) {
+        return res.status(404).json({ error: 'Trip not found' });
+    }
+    
+    // If trips were previously an array, convert it to an object
+    if (!user.trips || Array.isArray(user.trips)) {
+        user.trips = {};
+    }
+    
+    if (!user.trips[tripId]) {
+        // Initialize one empty array per round
+        const numRounds = trip.numRounds || 1;
+        user.trips[tripId] = {
+        scores: Array.from({ length: numRounds }, () => [])
+        };
+    
+        writeJsonFile(FILES.users, usersData);
         syncToGitHub(FILES.users, true);
     }
     
     res.json(user);
+    });
+
+app.post('/users/:username/save-score', (req, res) => {
+    const { username } = req.params;
+    const { tripId, roundIndex, scores } = req.body;
+    
+    if (!tripId || roundIndex === undefined || !Array.isArray(scores)) {
+        return res.status(400).json({ error: 'Missing tripId, roundIndex, or scores' });
+    }
+    
+    const data = readJsonFile(FILES.users, { users: [] });
+    const user = data.users.find((u) => u.username === username);
+    
+    if (!user) return res.status(404).json({ error: 'User not found' });
+    
+    if (!user.tripScores) user.tripScores = {};
+    if (!user.tripScores[tripId]) user.tripScores[tripId] = [];
+    
+    // Update if roundIndex exists, else append
+    const existing = user.tripScores[tripId].find((r) => r.roundIndex === roundIndex);
+    if (existing) {
+        existing.scores = scores;
+    } else {
+        user.tripScores[tripId].push({ roundIndex, scores });
+    }
+    
+    writeJsonFile(FILES.users, data);
+    syncToGitHub(FILES.users, true);
+    res.json({ message: 'Scores saved', tripScores: user.tripScores[tripId] });
     });
 
 // ========== SOCKET.IO ==========

@@ -5,7 +5,7 @@
       "password": "$2b$10$Uqa74AoJ9Q5y1oPs2hXqVu8rRkHwUO1B60qdtl.R8PgWDm7bjl/mq",
       "name": "testingg",
       "handicap": 10.3,
-      "trips": [],
+      "trips": {},
       "friends": []
     },
     {
@@ -13,10 +13,7 @@
       "password": "$2b$10$V/B5sGNcPtwABdeOeQ8u/u16nLlP5NRv3/JMIf7lhtZxaJdtENW5y",
       "name": "testinggg",
       "handicap": 10.2,
-      "trips": [
-        "TRIP_SQ1ESC",
-        "TRIP_QBCBV5"
-      ],
+      "trips": {},
       "friends": []
     }
   ]
