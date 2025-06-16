@@ -283,6 +283,24 @@ app.post('/users/:username/trips/:tripId/save-scores', (req, res) => {
     syncToGitHub(FILES.users, true);
     res.json({ message: 'Scores submitted' });
   });
+
+app.get('/users/:username/trips/:tripId/scores', (req, res) => {
+    const { username, tripId } = req.params;
+    const data = readJsonFile(FILES.users, { users: [] });
+    const user = data.users.find((u) => u.username === username);
+  
+    if (!user) return res.status(404).json({ error: 'User not found' });
+    const tripData = user.trips?.[tripId];
+  
+    if (!tripData || !tripData.raw_scores?.[0]) {
+      return res.json({ raw: null, net: null });
+    }
+  
+    res.json({
+      raw: tripData.raw_scores[0],
+      net: tripData.net_scores[0],
+    });
+  });
   
   
   // ========== SOCKET.IO ==========
