@@ -1466,6 +1466,19 @@
           ]
         }
       ]
+    },
+    "TRIP_KF3OZG": {
+      "tripId": "TRIP_KF3OZG",
+      "numTeams": 2,
+      "playersPerTeam": 4,
+      "numRounds": 1,
+      "scoringMethods": [
+        "match"
+      ],
+      "courses": [
+        "Bartram Trail"
+      ],
+      "teams": []
     }
   }
 }
