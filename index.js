@@ -252,8 +252,8 @@ app.post('/users/:username/add-trip', (req, res) => {
 // ========== SUBMIT SCORES (RAW + NET) ==========
 // Accepts frontend-calculated raw and net scores and saves them under user.trips[tripId]
  
-app.post('/users/:username/save-score', (req, res) => {
-   const { username, tripId } = req.params;
+app.post('/users/:username/trips/:tripId/save-scores', (req, res) => {
+    const { username, tripId } = req.params;
     const { raw, net } = req.body;
   
     if (
@@ -283,6 +283,7 @@ app.post('/users/:username/save-score', (req, res) => {
     syncToGitHub(FILES.users, true);
     res.json({ message: 'Scores submitted' });
   });
+  
   
   // ========== SOCKET.IO ==========
   io.on('connection', (socket) => {
