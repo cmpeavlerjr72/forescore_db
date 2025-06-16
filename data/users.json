@@ -15,7 +15,10 @@
       "handicap": 10.2,
       "trips": {
         "TRIP_RPPDKM": {
-          "scores": [
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
             []
           ]
         }

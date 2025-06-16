@@ -238,7 +238,8 @@ app.post('/users/:username/add-trip', (req, res) => {
         // Initialize one empty array per round
         const numRounds = trip.numRounds || 1;
         user.trips[tripId] = {
-        scores: Array.from({ length: numRounds }, () => [])
+        raw_scores: Array.from({ length: numRounds }, () => []),
+        net_scores: Array.from({ length: numRounds }, () => [])
         };
     
         writeJsonFile(FILES.users, usersData);
@@ -248,51 +249,57 @@ app.post('/users/:username/add-trip', (req, res) => {
     res.json(user);
     });
 
+// ========== SUBMIT SCORES (RAW + NET) ==========
+// Accepts frontend-calculated raw and net scores and saves them under user.trips[tripId]
+ 
 app.post('/users/:username/save-score', (req, res) => {
-    const { username } = req.params;
-    const { tripId, roundIndex, scores } = req.body;
-    
-    if (!tripId || roundIndex === undefined || !Array.isArray(scores)) {
-        return res.status(400).json({ error: 'Missing tripId, roundIndex, or scores' });
+   const { username, tripId } = req.params;
+    const { raw, net } = req.body;
+  
+    if (
+      !Array.isArray(raw) || raw.length !== 18 ||
+      !Array.isArray(net) || net.length !== 18
+    ) {
+      return res.status(400).json({ error: 'Both raw and net must be arrays of length 18' });
     }
-    
+  
     const data = readJsonFile(FILES.users, { users: [] });
     const user = data.users.find((u) => u.username === username);
-    
     if (!user) return res.status(404).json({ error: 'User not found' });
-    
-    if (!user.tripScores) user.tripScores = {};
-    if (!user.tripScores[tripId]) user.tripScores[tripId] = [];
-    
-    // Update if roundIndex exists, else append
-    const existing = user.tripScores[tripId].find((r) => r.roundIndex === roundIndex);
-    if (existing) {
-        existing.scores = scores;
-    } else {
-        user.tripScores[tripId].push({ roundIndex, scores });
+  
+    if (!user.trips || typeof user.trips !== 'object') user.trips = {};
+    if (!user.trips[tripId]) {
+      user.trips[tripId] = {
+        raw_scores: [],
+        net_scores: []
+      };
     }
-    
+  
+    // Default to round 0
+    user.trips[tripId].raw_scores[0] = raw;
+    user.trips[tripId].net_scores[0] = net;
+  
     writeJsonFile(FILES.users, data);
     syncToGitHub(FILES.users, true);
-    res.json({ message: 'Scores saved', tripScores: user.tripScores[tripId] });
-    });
-
-// ========== SOCKET.IO ==========
-io.on('connection', (socket) => {
-  console.log(`🟢 User connected: ${socket.id}`);
-
-  socket.on('disconnect', () => {
-    console.log(`🔴 User disconnected: ${socket.id}`);
+    res.json({ message: 'Scores submitted' });
   });
-});
-
-// Startup
-restoreFromGitHub(FILES.trips);
-restoreFromGitHub(FILES.users);
-setInterval(() => {
-  if (syncQueue.length > 0) syncToGitHub(syncQueue.shift());
-}, 5000);
-
-server.listen(PORT, '0.0.0.0', () => {
-  console.log(`🚀 Server running on http://0.0.0.0:${PORT}`);
-});
+  
+  // ========== SOCKET.IO ==========
+  io.on('connection', (socket) => {
+    console.log(`🟢 User connected: ${socket.id}`);
+  
+    socket.on('disconnect', () => {
+      console.log(`🔴 User disconnected: ${socket.id}`);
+    });
+  });
+  
+  // Startup logic
+  restoreFromGitHub(FILES.trips);
+  restoreFromGitHub(FILES.users);
+  setInterval(() => {
+    if (syncQueue.length > 0) syncToGitHub(syncQueue.shift());
+  }, 5000);
+  
+  server.listen(PORT, '0.0.0.0', () => {
+    console.log(`🚀 Server running on http://0.0.0.0:${PORT}`);
+  });
