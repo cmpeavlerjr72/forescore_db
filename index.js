@@ -211,43 +211,56 @@ app.get('/users/:username', (req, res) => {
     res.json(userWithoutPassword);
     });
 
-app.post('/users/:username/add-trip', (req, res) => {
-    const { username } = req.params;
-    const { tripId } = req.body;
-    
-    const usersData = readJsonFile(FILES.users, { users: [] });
-    const tripsData = readJsonFile(FILES.trips, { trips: {} });
-    
-    const user = usersData.users.find((u) => u.username === username);
-    const trip = tripsData.trips[tripId];
-    
-    if (!user) {
-        return res.status(404).json({ error: 'User not found' });
-    }
-    
-    if (!trip) {
-        return res.status(404).json({ error: 'Trip not found' });
-    }
-    
-    // If trips were previously an array, convert it to an object
-    if (!user.trips || Array.isArray(user.trips)) {
-        user.trips = {};
-    }
-    
-    if (!user.trips[tripId]) {
-        // Initialize one empty array per round
-        const numRounds = trip.numRounds || 1;
-        user.trips[tripId] = {
-        raw_scores: Array.from({ length: numRounds }, () => []),
-        net_scores: Array.from({ length: numRounds }, () => [])
-        };
-    
+    app.post('/users/:username/add-trip', (req, res) => {
+        const { username } = req.params;
+        const { tripId } = req.body;
+      
+        const usersData = readJsonFile(FILES.users, { users: [] });
+        const tripsData = readJsonFile(FILES.trips, { trips: {} });
+      
+        const user = usersData.users.find((u) => u.username === username);
+        const trip = tripsData.trips[tripId];
+      
+        if (!user) {
+          return res.status(404).json({ error: 'User not found' });
+        }
+      
+        if (!trip) {
+          return res.status(404).json({ error: 'Trip not found' });
+        }
+      
+        // Ensure user's trip data is an object
+        if (!user.trips || Array.isArray(user.trips)) {
+          user.trips = {};
+        }
+      
+        // Add trip to user's profile if not already added
+        if (!user.trips[tripId]) {
+          const numRounds = trip.numRounds || 1;
+          user.trips[tripId] = {
+            raw_scores: Array.from({ length: numRounds }, () => []),
+            net_scores: Array.from({ length: numRounds }, () => []),
+          };
+        }
+      
+        // Add username to trip.users array if not already included
+        if (!Array.isArray(trip.users)) {
+          trip.users = [];
+        }
+        if (!trip.users.includes(username)) {
+          trip.users.push(username);
+        }
+      
+        // Save both updated JSON files
         writeJsonFile(FILES.users, usersData);
+        writeJsonFile(FILES.trips, tripsData);
+      
+        // Sync to GitHub
         syncToGitHub(FILES.users, true);
-    }
-    
-    res.json(user);
-    });
+        syncToGitHub(FILES.trips, true);
+      
+        res.json(user);
+      });
 
 // ========== SUBMIT SCORES (RAW + NET) ==========
 // Accepts frontend-calculated raw and net scores and saves them under user.trips[tripId]
