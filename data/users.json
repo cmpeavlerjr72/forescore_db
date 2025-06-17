@@ -6,6 +6,14 @@
       "name": "testinggg",
       "handicap": 10.3,
       "trips": {
+        "TRIP_QK2MWP": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
       },
       "friends": []
     },
@@ -14,8 +22,7 @@
       "password": "$2b$10$W2uxSnSP60FsN9mcr3tjPuaBr2EvwTIONZ2.At1qg0Ji8pLrWhXzK",
       "name": "testingggg4",
       "handicap": 15,
-      "trips": {
-      },
+      "trips": {},
       "friends": []
     }
   ]
