@@ -138,7 +138,9 @@
         }
       ],
       "tripLeader": "test4",
-      "users": []
+      "users": [
+        "test3"
+      ]
     }
   }
 }
