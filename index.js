@@ -250,6 +250,9 @@ app.post('/users/:username/add-trip', (req, res) => {
     
     if (!trip.users.includes(username)) {
         trip.users.push(username);
+        // Ensure the trip object is reassigned back into the tripsData
+        tripsData.trips[tripId] = trip;
+    
         writeJsonFile(FILES.trips, tripsData);
         syncToGitHub(FILES.trips, true);
     }
