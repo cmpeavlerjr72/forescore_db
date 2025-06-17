@@ -6,14 +6,6 @@
       "name": "testinggg",
       "handicap": 10.3,
       "trips": {
-        "TRIP_I7ELYE": {
-          "raw_scores": [
-            []
-          ],
-          "net_scores": [
-            []
-          ]
-        }
       },
       "friends": []
     },
@@ -23,14 +15,6 @@
       "name": "testingggg4",
       "handicap": 15,
       "trips": {
-        "TRIP_YZIL6H": {
-          "raw_scores": [
-            []
-          ],
-          "net_scores": [
-            []
-          ]
-        }
       },
       "friends": []
     }
