@@ -93,6 +93,52 @@
       "users": [
         "test4"
       ]
+    },
+    "TRIP_X7F360": {
+      "tripId": "TRIP_X7F360",
+      "numTeams": 2,
+      "playersPerTeam": 1,
+      "numRounds": 1,
+      "scoringMethods": [
+        "match"
+      ],
+      "courses": [
+        "True Blue"
+      ],
+      "teams": [
+        {
+          "name": "Team 1",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 2",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "tripLeader": "test4",
+      "users": []
     }
   }
 }
