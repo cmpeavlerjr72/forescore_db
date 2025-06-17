@@ -90,7 +90,9 @@
         }
       ],
       "tripLeader": "test3",
-      "users": []
+      "users": [
+        "test4"
+      ]
     }
   }
 }
