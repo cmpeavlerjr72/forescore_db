@@ -30,7 +30,16 @@
       "password": "$2b$10$W2uxSnSP60FsN9mcr3tjPuaBr2EvwTIONZ2.At1qg0Ji8pLrWhXzK",
       "name": "testingggg4",
       "handicap": 15,
-      "trips": {},
+      "trips": {
+        "TRIP_FCW8UO": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
