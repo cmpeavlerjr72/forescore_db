@@ -144,22 +144,43 @@ app.post('/trips', async (req, res) => {
     writeJsonFile(FILES.trips, data);
     syncToGitHub(FILES.trips, true);
 
-    // ✅ Internally call /users/:username/add-trip to update both files
-    const tripLeader = trip.tripLeader;
-    if (tripLeader) {
-      const internalURL = process.env.INTERNAL_API_URL || `http://localhost:${PORT}`;
-      await fetch(`${internalURL}/users/${tripLeader}/add-trip`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ tripId: trip.tripId })
-      });
+    res.status(201).json({ message: 'Trip saved and user updated', trip });
+
+    // After saving trip...
+    const usersData = readJsonFile(FILES.users, { users: [] });
+    const user = usersData.users.find((u) => u.username === tripLeader);
+
+    if (user) {
+      if (!user.trips || typeof user.trips !== 'object') user.trips = {};
+      if (!user.trips[trip.tripId]) {
+        user.trips[trip.tripId] = {
+          raw_scores: Array.from({ length: trip.numRounds || 1 }, () => []),
+          net_scores: Array.from({ length: trip.numRounds || 1 }, () => [])
+        };
+      }
+
+      const tripsData = readJsonFile(FILES.trips, { trips: {} });
+      const tripData = tripsData.trips[trip.tripId];
+
+      if (!tripData.users) tripData.users = [];
+      if (!tripData.users.includes(tripLeader)) {
+        tripData.users.push(tripLeader);
+        tripsData.trips[trip.tripId] = tripData;
+        writeJsonFile(FILES.trips, tripsData);
+        syncToGitHub(FILES.trips, true);
+      }
+
+      writeJsonFile(FILES.users, usersData);
+      syncToGitHub(FILES.users, true);
     }
 
-    res.status(201).json({ message: 'Trip saved and user updated', trip });
   } catch (err) {
     console.error('Failed to save trip:', err.message);
     res.status(500).json({ error: 'Failed to save trip' });
   }
+
+
+
 });
 
 // ========== USER ROUTES ==========

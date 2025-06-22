@@ -6,30 +6,6 @@
       "name": "testinggg",
       "handicap": 10.3,
       "trips": {
-        "TRIP_QK2MWP": {
-          "raw_scores": [
-            []
-          ],
-          "net_scores": [
-            []
-          ]
-        },
-        "TRIP_FCW8UO": {
-          "raw_scores": [
-            []
-          ],
-          "net_scores": [
-            []
-          ]
-        },
-        "TRIP_XH89MZ": {
-          "raw_scores": [
-            []
-          ],
-          "net_scores": [
-            []
-          ]
-        }
       },
       "friends": []
     },
@@ -39,22 +15,7 @@
       "name": "testingggg4",
       "handicap": 15,
       "trips": {
-        "TRIP_FCW8UO": {
-          "raw_scores": [
-            []
-          ],
-          "net_scores": [
-            []
-          ]
-        },
-        "TRIP_XH89MZ": {
-          "raw_scores": [
-            []
-          ],
-          "net_scores": [
-            []
-          ]
-        }
+        
       },
       "friends": []
     }
