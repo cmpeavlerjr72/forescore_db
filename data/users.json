@@ -13,6 +13,14 @@
           "net_scores": [
             []
           ]
+        },
+        "TRIP_OGFS5G": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
         }
       },
       "friends": []
