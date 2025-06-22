@@ -48,6 +48,122 @@
         "test3",
         "test4"
       ]
+    },
+    "TRIP_FROL28": {
+      "tripId": "TRIP_FROL28",
+      "numTeams": 2,
+      "playersPerTeam": 3,
+      "numRounds": 3,
+      "scoringMethods": [
+        "match",
+        "stroke",
+        "match"
+      ],
+      "courses": [
+        "True Blue",
+        "True Blue",
+        "True Blue"
+      ],
+      "teams": [
+        {
+          "name": "Team 1",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Player 3",
+              "scores": [
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                2,
+                2,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 2",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Player 3",
+              "scores": [
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                2,
+                2,
+                2
+              ]
+            }
+          ]
+        }
+      ],
+      "tripLeader": "test3",
+      "users": [
+        "test3"
+      ]
     }
   }
 }
