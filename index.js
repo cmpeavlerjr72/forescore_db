@@ -148,6 +148,7 @@ app.post('/trips', async (req, res) => {
 
     // After saving trip...
     const usersData = readJsonFile(FILES.users, { users: [] });
+    const tripLeader = trip.tripLeader;
     const user = usersData.users.find((u) => u.username === tripLeader);
 
     if (user) {
