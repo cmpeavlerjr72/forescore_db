@@ -134,28 +134,33 @@ app.get('/trips/:tripId', (req, res) => {
   res.json(trip);
 });
 
-app.post('/trips', (req, res) => {
-    try {
-      const data = readJsonFile(FILES.trips, { trips: {} });
-      const trip = req.body;
-  
-      // ✅ Ensure trip.users exists and includes tripLeader
-      if (!Array.isArray(trip.users)) {
-        trip.users = [];
-      }
-      if (trip.tripLeader && !trip.users.includes(trip.tripLeader)) {
-        trip.users.push(trip.tripLeader);
-      }
-  
-      data.trips[trip.tripId] = trip;
-      writeJsonFile(FILES.trips, data);
-      syncToGitHub(FILES.trips, true);
-      res.status(201).json({ message: 'Trip saved', trip });
-    } catch (err) {
-      console.error('Failed to save trip:', err.message);
-      res.status(500).json({ error: 'Failed to save trip' });
+app.post('/trips', async (req, res) => {
+  try {
+    const data = readJsonFile(FILES.trips, { trips: {} });
+    const trip = req.body;
+
+    // Save trip
+    data.trips[trip.tripId] = trip;
+    writeJsonFile(FILES.trips, data);
+    syncToGitHub(FILES.trips, true);
+
+    // ✅ Internally call /users/:username/add-trip to update both files
+    const tripLeader = trip.tripLeader;
+    if (tripLeader) {
+      const internalURL = process.env.INTERNAL_API_URL || `http://localhost:${PORT}`;
+      await fetch(`${internalURL}/users/${tripLeader}/add-trip`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ tripId: trip.tripId })
+      });
     }
-  });
+
+    res.status(201).json({ message: 'Trip saved and user updated', trip });
+  } catch (err) {
+    console.error('Failed to save trip:', err.message);
+    res.status(500).json({ error: 'Failed to save trip' });
+  }
+});
 
 // ========== USER ROUTES ==========
 app.post('/users/register', async (req, res) => {
