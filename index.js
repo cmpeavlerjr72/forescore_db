@@ -139,14 +139,15 @@ app.post('/trips', async (req, res) => {
     const data = readJsonFile(FILES.trips, { trips: {} });
     const trip = req.body;
 
-    // Save trip
+    if (!trip.tripId || !trip.tripLeader) {
+      return res.status(400).json({ error: 'tripId and tripLeader are required' });
+    }
+
+    console.log('Saving trip:', trip.tripId); // Debug log
     data.trips[trip.tripId] = trip;
     writeJsonFile(FILES.trips, data);
-    syncToGitHub(FILES.trips, true);
 
-    res.status(201).json({ message: 'Trip saved and user updated', trip });
-
-    // After saving trip...
+    // User update logic
     const usersData = readJsonFile(FILES.users, { users: [] });
     const tripLeader = trip.tripLeader;
     const user = usersData.users.find((u) => u.username === tripLeader);
@@ -160,28 +161,24 @@ app.post('/trips', async (req, res) => {
         };
       }
 
-      const tripsData = readJsonFile(FILES.trips, { trips: {} });
-      const tripData = tripsData.trips[trip.tripId];
-
-      if (!tripData.users) tripData.users = [];
-      if (!tripData.users.includes(tripLeader)) {
-        tripData.users.push(tripLeader);
-        tripsData.trips[trip.tripId] = tripData;
-        writeJsonFile(FILES.trips, tripsData);
-        syncToGitHub(FILES.trips, true);
+      // Update trip.users in the same data object to avoid overwriting
+      if (!data.trips[trip.tripId].users) data.trips[trip.tripId].users = [];
+      if (!data.trips[trip.tripId].users.includes(tripLeader)) {
+        data.trips[trip.tripId].users.push(tripLeader);
       }
 
+      usersData.users = usersData.users.map(u => u.username === tripLeader ? user : u);
       writeJsonFile(FILES.users, usersData);
-      syncToGitHub(FILES.users, true);
     }
 
+    await syncToGitHub(FILES.trips, true).catch(err => console.error('Sync failed:', err));
+    await syncToGitHub(FILES.users, true).catch(err => console.error('Sync failed:', err));
+
+    res.status(201).json({ message: 'Trip saved and user updated', trip });
   } catch (err) {
     console.error('Failed to save trip:', err.message);
-    res.status(500).json({ error: 'Failed to save trip' });
+    res.status(500).json({ error: 'Failed to save trip', details: err.message });
   }
-
-
-
 });
 
 // ========== USER ROUTES ==========
