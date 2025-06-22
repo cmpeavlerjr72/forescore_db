@@ -350,6 +350,33 @@ app.get('/users/:username/trips/:tripId/scores', (req, res) => {
       net: tripData.net_scores[0],
     });
   });
+
+  // ========== SAVE LINEUPS ==========
+// Save new team assignments and match play pairings
+app.post('/trips/:tripId/set-lineup', async (req, res) => {
+  const { tripId } = req.params;
+  const { teams, lineups } = req.body;
+
+  try {
+    const data = readJsonFile(FILES.trips, { trips: {} });
+
+    if (!data.trips[tripId]) {
+      return res.status(404).json({ error: 'Trip not found' });
+    }
+
+    // Save the updated teams and match play lineups
+    data.trips[tripId].teams = teams;
+    data.trips[tripId].lineups = lineups;
+
+    writeJsonFile(FILES.trips, data);
+    await syncToGitHub(FILES.trips, true);
+
+    res.status(200).json({ message: 'Lineup successfully saved' });
+  } catch (err) {
+    console.error('❌ Failed to save lineups:', err.message);
+    res.status(500).json({ error: 'Failed to save lineups' });
+  }
+});
   
   
   // ========== SOCKET.IO ==========
