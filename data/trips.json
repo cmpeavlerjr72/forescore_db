@@ -456,6 +456,99 @@
       "users": [
         "test3"
       ]
+    },
+    "TRIP_8CGA4I": {
+      "tripId": "TRIP_8CGA4I",
+      "numTeams": 3,
+      "playersPerTeam": 2,
+      "numRounds": 1,
+      "scoringMethods": [
+        "match"
+      ],
+      "courses": [
+        "True Blue"
+      ],
+      "teams": [
+        {
+          "name": "Team 1",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 2",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 3",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "tripLeader": "test3",
+      "users": [
+        "test3"
+      ]
     }
   }
 }
