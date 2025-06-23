@@ -614,6 +614,69 @@
       "users": [
         "mp1003"
       ]
+    },
+    "TRIP_3T0E1X": {
+      "tripId": "TRIP_3T0E1X",
+      "numTeams": 3,
+      "playersPerTeam": 1,
+      "numRounds": 1,
+      "scoringMethods": [
+        "stroke"
+      ],
+      "courses": [
+        "Forest Hills"
+      ],
+      "teams": [
+        {
+          "name": "Team 1",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 2",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 3",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "tripLeader": "mp1003",
+      "users": [
+        "mp1003"
+      ]
     }
   }
 }
