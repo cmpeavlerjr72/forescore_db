@@ -221,6 +221,14 @@
       "handicap": 11,
       "trips": {},
       "friends": []
+    },
+    {
+      "username": "pw0530",
+      "password": "$2b$10$X8aLrtAOGHehqGoaRV45reW/nIC5QZ8YcLlNOgR4ydDJwbl5z4yKu",
+      "name": "Preston Whitney",
+      "handicap": 14,
+      "trips": {},
+      "friends": []
     }
   ]
 }
