@@ -313,6 +313,149 @@
           ]
         }
       }
+    },
+    "TRIP_8MM96U": {
+      "tripId": "TRIP_8MM96U",
+      "numTeams": 5,
+      "playersPerTeam": 2,
+      "numRounds": 1,
+      "scoringMethods": [
+        "match"
+      ],
+      "courses": [
+        "True Blue"
+      ],
+      "teams": [
+        {
+          "name": "Team 1",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 2",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 3",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 4",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 5",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "tripLeader": "test3",
+      "users": [
+        "test3"
+      ]
     }
   }
 }
