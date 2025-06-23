@@ -259,7 +259,7 @@
           "players": [
             {
               "id": 1,
-              "name": "",
+              "name": "test3",
               "scores": [
                 0
               ],
@@ -308,7 +308,7 @@
       "lineups": {
         "0": {
           "0": [
-            "",
+            "test3",
             "test4"
           ]
         }
