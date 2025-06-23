@@ -343,7 +343,16 @@
       "password": "$2b$10$j4VQmeG4yx8K5B1rkG/TLePxJTdESpw/pU0yXMAEYvWfQyjvxpdPq",
       "name": "Testingghgg",
       "handicap": 12,
-      "trips": {},
+      "trips": {
+        "TRIP_0CITM4": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
