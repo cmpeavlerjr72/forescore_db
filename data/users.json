@@ -337,6 +337,14 @@
       "handicap": 14,
       "trips": {},
       "friends": []
+    },
+    {
+      "username": "test5",
+      "password": "$2b$10$j4VQmeG4yx8K5B1rkG/TLePxJTdESpw/pU0yXMAEYvWfQyjvxpdPq",
+      "name": "Testingghgg",
+      "handicap": 12,
+      "trips": {},
+      "friends": []
     }
   ]
 }
