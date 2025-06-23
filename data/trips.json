@@ -289,7 +289,7 @@
           "players": [
             {
               "id": 1,
-              "name": "",
+              "name": "test5",
               "scores": [
                 0
               ],
@@ -303,13 +303,15 @@
       "tripLeader": "test3",
       "users": [
         "test3",
-        "test4"
+        "test4",
+        "test5"
       ],
       "lineups": {
         "0": {
           "0": [
             "test3",
-            "test4"
+            "test4",
+            "test5"
           ]
         }
       }
