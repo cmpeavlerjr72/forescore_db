@@ -392,6 +392,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "mp1003",
+      "password": "$2b$10$2qinqnS4xcQS9TXP8Agfi.MbnFIUyAAJf6nBCe0aywt4XiorgAwFu",
+      "name": "Mitchell Peavler",
+      "handicap": 18,
+      "trips": {},
+      "friends": []
     }
   ]
 }
