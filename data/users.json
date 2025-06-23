@@ -398,7 +398,16 @@
       "password": "$2b$10$2qinqnS4xcQS9TXP8Agfi.MbnFIUyAAJf6nBCe0aywt4XiorgAwFu",
       "name": "Mitchell Peavler",
       "handicap": 18,
-      "trips": {},
+      "trips": {
+        "TRIP_8H2757": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
