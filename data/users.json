@@ -213,6 +213,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "jc0910",
+      "password": "$2b$10$rV4E52WbPl1HNGRZ57BcJeOyR1/GDVmLFPylxDwvLHGNimtPfzNLq",
+      "name": "Jacob Conley",
+      "handicap": 11,
+      "trips": {},
+      "friends": []
     }
   ]
 }
