@@ -448,7 +448,16 @@
       "password": "$2b$10$2BRlNZ6V0KkbTp597DZ81OSFmtOLJgY6oPqRJvQIT5sZI/eNnCov6",
       "name": "Jim",
       "handicap": 8,
-      "trips": {},
+      "trips": {
+        "TRIP_H4VU6X": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
