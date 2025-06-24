@@ -244,7 +244,7 @@ app.get('/users/:username', (req, res) => {
     res.json(userWithoutPassword);
     });
 
-app.post('/users/:username/add-trip', (req, res) => {
+  app.post('/users/:username/add-trip', async (req, res) => {
     const { username } = req.params;
     const { tripId } = req.body;
     
@@ -262,40 +262,34 @@ app.post('/users/:username/add-trip', (req, res) => {
         return res.status(404).json({ error: 'Trip not found' });
     }
     
-    // Ensure user's trip data is an object
     if (!user.trips || Array.isArray(user.trips)) {
         user.trips = {};
     }
     
-    // Add trip to user's profile if not already added
     if (!user.trips[tripId]) {
         const numRounds = trip.numRounds || 1;
         user.trips[tripId] = {
-        raw_scores: Array.from({ length: numRounds }, () => []),
-        net_scores: Array.from({ length: numRounds }, () => []),
+            raw_scores: Array.from({ length: numRounds }, () => []),
+            net_scores: Array.from({ length: numRounds }, () => []),
         };
     }
     
-    // Add username to trip.users array if not already included
     if (!Array.isArray(trip.users)) {
         trip.users = [];
     }
     
     if (!trip.users.includes(username)) {
         trip.users.push(username);
-        // Ensure the trip object is reassigned back into the tripsData
         tripsData.trips[tripId] = trip;
-    
         writeJsonFile(FILES.trips, tripsData);
-        syncToGitHub(FILES.trips, true);
+        await syncToGitHub(FILES.trips, true); // Await sync completion
     }
     
-    // Save updated users file (regardless)
     writeJsonFile(FILES.users, usersData);
-    syncToGitHub(FILES.users, true);
+    await syncToGitHub(FILES.users, true); // Await sync completion
     
     res.json(user);
-    });
+  });
       
 
 // ========== SUBMIT SCORES (RAW + NET) ==========
