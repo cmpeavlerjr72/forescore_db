@@ -423,7 +423,16 @@
       "password": "$2b$10$QByfV5svjrOEPi2kqJ8XKu8Yd64saMytJteiUoxAaaPco0pzItMVa",
       "name": "Jon",
       "handicap": 12,
-      "trips": {},
+      "trips": {
+        "TRIP_H4VU6X": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
