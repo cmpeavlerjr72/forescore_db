@@ -296,36 +296,37 @@ app.get('/users/:username', (req, res) => {
 // Accepts frontend-calculated raw and net scores and saves them under user.trips[tripId]
  
 app.post('/users/:username/trips/:tripId/save-scores', (req, res) => {
-    const { username, tripId } = req.params;
-    const { raw, net } = req.body;
-  
-    if (
-      !Array.isArray(raw) || raw.length !== 18 ||
-      !Array.isArray(net) || net.length !== 18
-    ) {
-      return res.status(400).json({ error: 'Both raw and net must be arrays of length 18' });
-    }
-  
-    const data = readJsonFile(FILES.users, { users: [] });
-    const user = data.users.find((u) => u.username === username);
-    if (!user) return res.status(404).json({ error: 'User not found' });
-  
-    if (!user.trips || typeof user.trips !== 'object') user.trips = {};
-    if (!user.trips[tripId]) {
-      user.trips[tripId] = {
-        raw_scores: [],
-        net_scores: []
-      };
-    }
-  
-    // Default to round 0
-    user.trips[tripId].raw_scores[0] = raw;
-    user.trips[tripId].net_scores[0] = net;
-  
-    writeJsonFile(FILES.users, data);
-    syncToGitHub(FILES.users, true);
-    res.json({ message: 'Scores submitted' });
-  });
+  const { username, tripId } = req.params;
+  const { round, raw, net } = req.body;
+
+  if (
+    typeof round !== 'number' ||
+    !Array.isArray(raw) || raw.length !== 18 ||
+    !Array.isArray(net) || net.length !== 18
+  ) {
+    return res.status(400).json({ error: 'Round must be a number and raw/net must be arrays of length 18' });
+  }
+
+  const data = readJsonFile(FILES.users, { users: [] });
+  const user = data.users.find((u) => u.username === username);
+  if (!user) return res.status(404).json({ error: 'User not found' });
+
+  if (!user.trips || typeof user.trips !== 'object') user.trips = {};
+  if (!user.trips[tripId]) {
+    user.trips[tripId] = {
+      raw_scores: [],
+      net_scores: [],
+    };
+  }
+
+  // ✅ Write to correct round index
+  user.trips[tripId].raw_scores[round] = raw;
+  user.trips[tripId].net_scores[round] = net;
+
+  writeJsonFile(FILES.users, data);
+  syncToGitHub(FILES.users, true);
+  res.json({ message: 'Scores submitted' });
+});
 
   app.get('/users/:username/trips/:tripId/scores', (req, res) => {
     const { username, tripId } = req.params;
