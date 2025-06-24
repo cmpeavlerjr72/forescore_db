@@ -1044,7 +1044,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "test5",
               "scores": [
                 0,
                 0,
@@ -1058,16 +1058,16 @@
             },
             {
               "id": 2,
-              "name": "Player 2",
+              "name": "",
               "scores": [
                 0,
                 0,
                 0
               ],
               "lineupOrder": [
-                1,
-                1,
-                1
+                0,
+                0,
+                0
               ]
             }
           ]
@@ -1077,7 +1077,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "",
               "scores": [
                 0,
                 0,
@@ -1091,16 +1091,16 @@
             },
             {
               "id": 2,
-              "name": "Player 2",
+              "name": "",
               "scores": [
                 0,
                 0,
                 0
               ],
               "lineupOrder": [
-                1,
-                1,
-                1
+                0,
+                0,
+                0
               ]
             }
           ]
@@ -1109,7 +1109,29 @@
       "tripLeader": "test5",
       "users": [
         "test5"
-      ]
+      ],
+      "lineups": {
+        "0": {
+          "0": [
+            "test5",
+            ""
+          ],
+          "1": [
+            "",
+            ""
+          ]
+        },
+        "2": {
+          "0": [
+            "test5",
+            ""
+          ],
+          "1": [
+            "",
+            ""
+          ]
+        }
+      }
     }
   }
 }
