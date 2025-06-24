@@ -505,6 +505,14 @@
       "handicap": 6,
       "trips": {},
       "friends": []
+    },
+    {
+      "username": "Schmidt",
+      "password": "$2b$10$6Su3yjC06dxt/JNObfseKeLZfM6nubdczBaPczvVDM8LyJCMkxJUW",
+      "name": "Smith",
+      "handicap": 6,
+      "trips": {},
+      "friends": []
     }
   ]
 }
