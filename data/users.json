@@ -478,7 +478,16 @@
       "password": "$2b$10$1j1r3ZDngQ.xIXBw6zShVeghyj1DEwfPZgPEbeIzM50WotsyT0npe",
       "name": "Jacob",
       "handicap": 10,
-      "trips": {},
+      "trips": {
+        "TRIP_H4VU6X": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     },
     {
