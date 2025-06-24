@@ -413,6 +413,14 @@
               0
             ]
           ]
+        },
+        "TRIP_ZU04PS": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
         }
       },
       "friends": []
