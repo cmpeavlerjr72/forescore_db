@@ -485,6 +485,14 @@
               0
             ]
           ]
+        },
+        "TRIP_ALEJNH": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
         }
       },
       "friends": []
