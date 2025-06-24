@@ -1022,6 +1022,94 @@
       "users": [
         "test5"
       ]
+    },
+    "TRIP_5AV1A2": {
+      "tripId": "TRIP_5AV1A2",
+      "numTeams": 2,
+      "playersPerTeam": 2,
+      "numRounds": 3,
+      "scoringMethods": [
+        "match",
+        "stroke",
+        "match"
+      ],
+      "courses": [
+        "TPC Myrtle Beach",
+        "Caledonia",
+        "Crosswinds"
+      ],
+      "teams": [
+        {
+          "name": "Team 1",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 2",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                1,
+                1,
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "tripLeader": "test5",
+      "users": [
+        "test5"
+      ]
     }
   }
 }
