@@ -327,21 +327,36 @@ app.post('/users/:username/trips/:tripId/save-scores', (req, res) => {
     res.json({ message: 'Scores submitted' });
   });
 
-app.get('/users/:username/trips/:tripId/scores', (req, res) => {
+  app.get('/users/:username/trips/:tripId/scores', (req, res) => {
     const { username, tripId } = req.params;
+    const round = req.query.round; // Type: string | qs.ParsedQs | string[] | qs.ParsedQs[] | undefined
     const data = readJsonFile(FILES.users, { users: [] });
     const user = data.users.find((u) => u.username === username);
   
     if (!user) return res.status(404).json({ error: 'User not found' });
     const tripData = user.trips?.[tripId];
   
-    if (!tripData || !tripData.raw_scores?.[0]) {
+    if (!tripData || !tripData.raw_scores?.length) {
       return res.json({ raw: null, net: null });
     }
   
+    if (round) {
+      // Safely handle the round query parameter
+      const roundValue = Array.isArray(round) ? round[0] : round.toString();
+      const roundIndex = parseInt(roundValue, 10);
+      if (!isNaN(roundIndex) && roundIndex >= 0 && roundIndex < tripData.raw_scores.length) {
+        return res.json({
+          raw: tripData.raw_scores[roundIndex],
+          net: tripData.net_scores[roundIndex],
+        });
+      }
+      return res.status(400).json({ error: 'Invalid round index' });
+    }
+  
+    // Return all rounds if no round is specified
     res.json({
-      raw: tripData.raw_scores[0],
-      net: tripData.net_scores[0],
+      raw: tripData.raw_scores,
+      net: tripData.net_scores,
     });
   });
 
