@@ -417,6 +417,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "Jon",
+      "password": "$2b$10$QByfV5svjrOEPi2kqJ8XKu8Yd64saMytJteiUoxAaaPco0pzItMVa",
+      "name": "Jon",
+      "handicap": 12,
+      "trips": {},
+      "friends": []
     }
   ]
 }
