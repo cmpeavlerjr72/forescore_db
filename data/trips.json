@@ -769,7 +769,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "test3",
               "scores": [
                 0
               ],
@@ -779,7 +779,7 @@
             },
             {
               "id": 2,
-              "name": "Player 2",
+              "name": "Jon",
               "scores": [
                 0
               ],
@@ -789,7 +789,7 @@
             },
             {
               "id": 3,
-              "name": "Player 3",
+              "name": "",
               "scores": [
                 0
               ],
@@ -804,7 +804,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "test4",
               "scores": [
                 0
               ],
@@ -814,7 +814,7 @@
             },
             {
               "id": 2,
-              "name": "Player 2",
+              "name": "Jacob",
               "scores": [
                 0
               ],
@@ -824,7 +824,7 @@
             },
             {
               "id": 3,
-              "name": "Player 3",
+              "name": "",
               "scores": [
                 0
               ],
@@ -841,7 +841,23 @@
         "test4",
         "Jon",
         "Jacob"
-      ]
+      ],
+      "lineups": {
+        "0": {
+          "0": [
+            "",
+            ""
+          ],
+          "1": [
+            "",
+            ""
+          ],
+          "2": [
+            "",
+            ""
+          ]
+        }
+      }
     }
   }
 }
