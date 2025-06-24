@@ -929,6 +929,99 @@
         "test4",
         "test5"
       ]
+    },
+    "TRIP_L2M4RR": {
+      "tripId": "TRIP_L2M4RR",
+      "numTeams": 3,
+      "playersPerTeam": 2,
+      "numRounds": 1,
+      "scoringMethods": [
+        "match"
+      ],
+      "courses": [
+        "Pawleys Plantation"
+      ],
+      "teams": [
+        {
+          "name": "Team 1",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 2",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 3",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "tripLeader": "test5",
+      "users": [
+        "test5"
+      ]
     }
   }
 }
