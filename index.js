@@ -386,6 +386,70 @@ app.post('/users/:username/trips/:tripId/save-scores', (req, res) => {
     syncToGitHub(FILES.users, true);
     res.json({ message: 'Projected points saved' });
   });
+
+  app.get('/trips/:tripId/projected-points', (req, res) => {
+    const { tripId } = req.params;
+    const tripsData = readJsonFile(FILES.trips, { trips: {} });
+    const usersData = readJsonFile(FILES.users, { users: [] });
+  
+    const trip = tripsData.trips[tripId];
+    if (!trip) return res.status(404).json({ error: 'Trip not found' });
+  
+    const numRounds = trip.numRounds || 1;
+    const scoringMethods = trip.scoringMethods || [];
+    const players = trip.teams.flatMap(team => team.players);
+  
+    const pointsResult = {};
+  
+    players.forEach((player) => {
+      const username = player.name;
+      const userData = usersData.users.find(u => u.username === username);
+      if (!userData || !userData.trips?.[tripId]) return;
+  
+      const userTripData = userData.trips[tripId];
+      const playerPoints = Array(numRounds).fill(0);
+  
+      for (let round = 0; round < numRounds; round++) {
+        if (scoringMethods[round] !== 'match') continue;
+  
+        const lineupGroup = Object.values(trip.lineups?.[round] || {}).find(group =>
+          group.includes(username)
+        );
+        if (!lineupGroup || lineupGroup.length !== 2) continue;
+  
+        const opponent = lineupGroup.find(p => p !== username);
+        if (!opponent) continue;
+  
+        const opponentUser = usersData.users.find(u => u.username === opponent);
+        if (!opponentUser || !opponentUser.trips?.[tripId]) continue;
+  
+        const net1 = userTripData.net_scores?.[round] || Array(18).fill(0);
+        const net2 = opponentUser.trips[tripId].net_scores?.[round] || Array(18).fill(0);
+  
+        let p1 = 0, p2 = 0;
+        for (let i = 0; i < 18; i++) {
+          if (net1[i] > 0 && net2[i] > 0) {
+            if (net1[i] < net2[i]) p1++;
+            else if (net2[i] < net1[i]) p2++;
+          }
+        }
+  
+        if (p1 === 0 && p2 === 0) continue; // no holes played
+        if (p1 === p2) playerPoints[round] = 0.5;
+        else playerPoints[round] = p1 > p2 ? 1 : 0;
+      }
+  
+      pointsResult[username] = playerPoints;
+      // Also write them back to user JSON for persistence
+      userData.trips[tripId].projected_points = playerPoints;
+    });
+  
+    writeJsonFile(FILES.users, usersData);
+    syncToGitHub(FILES.users, true);
+  
+    res.json(pointsResult);
+  });
+  
   
 
   // ========== SAVE LINEUPS ==========
