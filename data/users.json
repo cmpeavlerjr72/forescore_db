@@ -201,7 +201,9 @@
               0
             ]
           ],
-          "projected_points": 1
+          "projected_points": [
+            1
+          ]
         },
         "TRIP_8MM96U": {
           "raw_scores": [
