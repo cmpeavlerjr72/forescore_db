@@ -406,6 +406,14 @@ app.post('/users/:username/trips/:tripId/save-scores', (req, res) => {
       const userData = usersData.users.find(u => u.username === username);
       if (!userData || !userData.trips?.[tripId]) return;
   
+      // ✅ Use existing projected_points if they exist
+      const existing = userData.trips[tripId].projected_points;
+      if (Array.isArray(existing) && existing.length === numRounds) {
+        pointsResult[username] = existing;
+        return;
+      }
+  
+      // ❌ Otherwise, recalculate them
       const userTripData = userData.trips[tripId];
       const playerPoints = Array(numRounds).fill(0);
   
@@ -434,13 +442,12 @@ app.post('/users/:username/trips/:tripId/save-scores', (req, res) => {
           }
         }
   
-        if (p1 === 0 && p2 === 0) continue; // no holes played
+        if (p1 === 0 && p2 === 0) continue; // No holes played
         if (p1 === p2) playerPoints[round] = 0.5;
         else playerPoints[round] = p1 > p2 ? 1 : 0;
       }
   
       pointsResult[username] = playerPoints;
-      // Also write them back to user JSON for persistence
       userData.trips[tripId].projected_points = playerPoints;
     });
   
@@ -449,6 +456,7 @@ app.post('/users/:username/trips/:tripId/save-scores', (req, res) => {
   
     res.json(pointsResult);
   });
+  
   
   
 
