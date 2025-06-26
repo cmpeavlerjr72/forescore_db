@@ -361,6 +361,24 @@ app.post('/users/:username/trips/:tripId/save-scores', (req, res) => {
     });
   });
 
+  app.post('/users/:username/trips/:tripId/save-projected-points', (req, res) => {
+    const { username, tripId } = req.params;
+    const { projectedPoints } = req.body;
+  
+    const data = readJsonFile(FILES.users, { users: [] });
+    const user = data.users.find(u => u.username === username);
+    if (!user) return res.status(404).json({ error: 'User not found' });
+  
+    if (!user.trips) user.trips = {};
+    if (!user.trips[tripId]) user.trips[tripId] = {};
+  
+    user.trips[tripId].projected_points = projectedPoints;
+    writeJsonFile(FILES.users, data);
+    syncToGitHub(FILES.users, true);
+  
+    res.json({ message: 'Projected points saved' });
+  });
+
   // ========== SAVE LINEUPS ==========
 // Save new team assignments and match play pairings
 app.post('/trips/:tripId/set-lineup', async (req, res) => {
