@@ -355,7 +355,7 @@
             ]
           ],
           "projected_points": [
-            0.5,
+            1,
             null,
             0.5
           ]
@@ -1056,7 +1056,7 @@
           "projected_points": [
             1,
             null,
-            0.5
+            1
           ]
         }
       },
