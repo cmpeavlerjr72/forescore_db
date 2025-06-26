@@ -360,6 +360,18 @@
           "net_scores": [
             []
           ]
+        },
+        "TRIP_5AV1A2": {
+          "raw_scores": [
+            [],
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            [],
+            []
+          ]
         }
       },
       "friends": []
