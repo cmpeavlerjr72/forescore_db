@@ -492,6 +492,8 @@
             ]
           ],
           "projected_points": [
+            0.5,
+            null,
             0.5
           ]
         }
