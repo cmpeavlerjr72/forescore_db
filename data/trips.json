@@ -1108,7 +1108,8 @@
       ],
       "tripLeader": "test5",
       "users": [
-        "test5"
+        "test5",
+        "test3"
       ],
       "lineups": {
         "0": {
