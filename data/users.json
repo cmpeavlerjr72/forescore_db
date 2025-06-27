@@ -1250,7 +1250,18 @@
       "password": "$2b$10$hdYXiTKjEaMoPOsoCijntuRIDmj7e8ciO9uhoE5outxlai/vS/GoW",
       "name": "Garrett Brown",
       "handicap": 17,
-      "trips": {},
+      "trips": {
+        "TRIP_I4R53M": {
+          "raw_scores": [
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            []
+          ]
+        }
+      },
       "friends": []
     },
     {
