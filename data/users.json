@@ -1234,6 +1234,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "G.Brown_52",
+      "password": "$2b$10$hdYXiTKjEaMoPOsoCijntuRIDmj7e8ciO9uhoE5outxlai/vS/GoW",
+      "name": "Garrett Brown",
+      "handicap": 17,
+      "trips": {},
+      "friends": []
     }
   ]
 }
