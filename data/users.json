@@ -1258,7 +1258,18 @@
       "password": "$2b$10$tnt6TX4I8WfuZpGHkRX1nuAEBfkChbdfUAEMkQeaftDCknr.dceiq",
       "name": "Peeyatt",
       "handicap": 18,
-      "trips": {},
+      "trips": {
+        "TRIP_I4R53M": {
+          "raw_scores": [
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
