@@ -619,7 +619,16 @@
       "password": "$2b$10$rV4E52WbPl1HNGRZ57BcJeOyR1/GDVmLFPylxDwvLHGNimtPfzNLq",
       "name": "Jacob Conley",
       "handicap": 11,
-      "trips": {},
+      "trips": {
+        "TRIP_8IM1HH": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     },
     {
