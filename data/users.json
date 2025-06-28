@@ -1388,7 +1388,18 @@
       "password": "$2b$10$3X8V2xGyuxS7MdL21P3kFutnXSYrKZnro4MOOMWntLtY3YdWThMNi",
       "name": "Jon R",
       "handicap": 22,
-      "trips": {},
+      "trips": {
+        "TRIP_I4R53M": {
+          "raw_scores": [
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
