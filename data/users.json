@@ -636,7 +636,16 @@
       "password": "$2b$10$X8aLrtAOGHehqGoaRV45reW/nIC5QZ8YcLlNOgR4ydDJwbl5z4yKu",
       "name": "Preston Whitney",
       "handicap": 14,
-      "trips": {},
+      "trips": {
+        "TRIP_8IM1HH": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     },
     {
