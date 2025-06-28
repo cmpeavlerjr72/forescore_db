@@ -1215,6 +1215,54 @@
         "Psheisty1234",
         "G.Brown_52"
       ]
+    },
+    "TRIP_8IM1HH": {
+      "tripId": "TRIP_8IM1HH",
+      "numTeams": 2,
+      "playersPerTeam": 1,
+      "numRounds": 1,
+      "scoringMethods": [
+        "stroke"
+      ],
+      "courses": [
+        "The Creek (Hard Labor)"
+      ],
+      "teams": [
+        {
+          "name": "Team 1",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 2",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "tripLeader": "jc0910",
+      "users": [
+        "jc0910"
+      ]
     }
   }
 }
