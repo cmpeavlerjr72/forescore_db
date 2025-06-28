@@ -1382,6 +1382,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "bossman",
+      "password": "$2b$10$3X8V2xGyuxS7MdL21P3kFutnXSYrKZnro4MOOMWntLtY3YdWThMNi",
+      "name": "Jon R",
+      "handicap": 22,
+      "trips": {},
+      "friends": []
     }
   ]
 }
