@@ -1233,7 +1233,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "jc0910",
               "scores": [
                 0
               ],
@@ -1248,7 +1248,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "pw0530",
               "scores": [
                 0
               ],
@@ -1263,7 +1263,8 @@
       "users": [
         "jc0910",
         "pw0530"
-      ]
+      ],
+      "lineups": {}
     }
   }
 }
