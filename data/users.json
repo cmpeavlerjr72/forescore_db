@@ -1607,6 +1607,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "Pshiesty",
+      "password": "$2b$10$xXL6A0AGeNgPlcvHr3IRpuon1R/3qK1ktdlRQqzKGVDyGw8ODSFiG",
+      "name": "Price",
+      "handicap": 18,
+      "trips": {},
+      "friends": []
     }
   ]
 }
