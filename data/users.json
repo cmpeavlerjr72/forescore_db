@@ -1362,6 +1362,9 @@
           "net_scores": [
             [],
             []
+          ],
+          "projected_points": [
+            0.5
           ]
         }
       },
@@ -1400,6 +1403,9 @@
           "net_scores": [
             [],
             []
+          ],
+          "projected_points": [
+            0.5
           ]
         }
       },
