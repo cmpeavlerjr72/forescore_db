@@ -953,6 +953,14 @@
             0,
             0
           ]
+        },
+        "TRIP_ZYVX52": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
         }
       },
       "friends": []
