@@ -1297,7 +1297,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "test3",
               "scores": [
                 0
               ],
@@ -1312,7 +1312,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "test4",
               "scores": [
                 0
               ],
@@ -1327,7 +1327,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "test5",
               "scores": [
                 0
               ],
@@ -1343,7 +1343,16 @@
         "test3",
         "test4",
         "test5"
-      ]
+      ],
+      "lineups": {
+        "0": {
+          "0": [
+            "test3",
+            "test4",
+            "test5"
+          ]
+        }
+      }
     }
   }
 }
