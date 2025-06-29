@@ -750,7 +750,7 @@
             ]
           ],
           "projected_points": [
-            1
+            2
           ]
         }
       },
@@ -1120,7 +1120,7 @@
             ]
           ],
           "projected_points": [
-            0
+            0.5
           ]
         }
       },
