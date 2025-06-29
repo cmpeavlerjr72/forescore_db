@@ -1340,7 +1340,8 @@
       ],
       "tripLeader": "test3",
       "users": [
-        "test3"
+        "test3",
+        "test4"
       ]
     }
   }
