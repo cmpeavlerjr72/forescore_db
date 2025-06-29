@@ -1371,7 +1371,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "test3",
               "scores": [
                 0
               ],
@@ -1381,7 +1381,7 @@
             },
             {
               "id": 2,
-              "name": "Player 2",
+              "name": "",
               "scores": [
                 0
               ],
@@ -1396,7 +1396,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "",
               "scores": [
                 0
               ],
@@ -1406,7 +1406,7 @@
             },
             {
               "id": 2,
-              "name": "Player 2",
+              "name": "",
               "scores": [
                 0
               ],
@@ -1420,7 +1420,19 @@
       "tripLeader": "test3",
       "users": [
         "test3"
-      ]
+      ],
+      "lineups": {
+        "0": {
+          "0": [
+            "test3",
+            ""
+          ],
+          "1": [
+            "",
+            ""
+          ]
+        }
+      }
     }
   }
 }
