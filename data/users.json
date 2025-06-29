@@ -929,7 +929,7 @@
           "projected_points": [
             0,
             0,
-            1
+            0
           ]
         }
       },
@@ -1246,7 +1246,7 @@
           "projected_points": [
             1,
             null,
-            0
+            1
           ]
         }
       },
