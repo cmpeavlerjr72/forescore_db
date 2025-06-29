@@ -449,6 +449,14 @@
           "projected_points": [
             0.5
           ]
+        },
+        "TRIP_D8M172": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
         }
       },
       "friends": []
