@@ -1987,6 +1987,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "Avery",
+      "password": "$2b$10$8Ks2i4otveuEresCJyZs1O81R7NqV.IPOGVp98r4F972NHpxN9QCC",
+      "name": "Smoak",
+      "handicap": 15,
+      "trips": {},
+      "friends": []
     }
   ]
 }
