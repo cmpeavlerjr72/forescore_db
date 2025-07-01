@@ -1990,10 +1990,19 @@
     },
     {
       "username": "Avery",
-      "password": "$2b$10$8Ks2i4otveuEresCJyZs1O81R7NqV.IPOGVp98r4F972NHpxN9QCC",
+      "password": "$2b$10$if0dNf/ykBqTsDKz2yS2b.WBDL7SvEwuMv5W2qQ0Hnes6vbk5lK.y",
       "name": "Smoak",
       "handicap": 15,
-      "trips": {},
+      "trips": {
+        "TRIP_8H2757": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
