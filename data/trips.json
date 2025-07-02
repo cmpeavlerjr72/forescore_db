@@ -1543,7 +1543,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "Pshiesty",
               "scores": [
                 0,
                 0
@@ -1555,7 +1555,7 @@
             },
             {
               "id": 2,
-              "name": "Player 2",
+              "name": "",
               "scores": [
                 0,
                 0
@@ -1572,7 +1572,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "",
               "scores": [
                 0,
                 0
@@ -1584,7 +1584,7 @@
             },
             {
               "id": 2,
-              "name": "Player 2",
+              "name": "",
               "scores": [
                 0,
                 0
@@ -1600,7 +1600,19 @@
       "tripLeader": "Pshiesty",
       "users": [
         "Pshiesty"
-      ]
+      ],
+      "lineups": {
+        "1": {
+          "0": [
+            "Pshiesty",
+            ""
+          ],
+          "1": [
+            "",
+            ""
+          ]
+        }
+      }
     }
   }
 }
