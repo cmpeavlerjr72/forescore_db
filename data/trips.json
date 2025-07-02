@@ -1523,6 +1523,84 @@
       "users": [
         "mp1003"
       ]
+    },
+    "TRIP_6E94TY": {
+      "tripId": "TRIP_6E94TY",
+      "numTeams": 2,
+      "playersPerTeam": 2,
+      "numRounds": 2,
+      "scoringMethods": [
+        "stroke",
+        "match"
+      ],
+      "courses": [
+        "Chickasaw Point Golf Course",
+        "Chickasaw Point Golf Course"
+      ],
+      "teams": [
+        {
+          "name": "Team 1",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 2",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "tripLeader": "Pshiesty",
+      "users": [
+        "Pshiesty"
+      ]
     }
   }
 }
