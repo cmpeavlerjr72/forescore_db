@@ -2008,6 +2008,16 @@
             0,
             0
           ]
+        },
+        "TRIP_IBYD2H": {
+          "raw_scores": [
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            []
+          ]
         }
       },
       "friends": []
