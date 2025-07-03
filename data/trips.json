@@ -1729,7 +1729,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "mp1003",
               "scores": [
                 0,
                 0
@@ -1746,7 +1746,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "jc0910",
               "scores": [
                 0,
                 0
@@ -1763,7 +1763,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "averysmoak10",
               "scores": [
                 0,
                 0
@@ -1781,7 +1781,16 @@
         "mp1003",
         "jc0910",
         "averysmoak10"
-      ]
+      ],
+      "lineups": {
+        "0": {
+          "0": [
+            "mp1003",
+            "jc0910",
+            "averysmoak10"
+          ]
+        }
+      }
     }
   }
 }
