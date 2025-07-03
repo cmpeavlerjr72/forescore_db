@@ -859,6 +859,16 @@
           "projected_points": [
             0
           ]
+        },
+        "TRIP_4L78PR": {
+          "raw_scores": [
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            []
+          ]
         }
       },
       "friends": []
