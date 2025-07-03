@@ -1709,6 +1709,77 @@
           ]
         }
       }
+    },
+    "TRIP_4L78PR": {
+      "tripId": "TRIP_4L78PR",
+      "numTeams": 3,
+      "playersPerTeam": 1,
+      "numRounds": 2,
+      "scoringMethods": [
+        "match",
+        "stroke"
+      ],
+      "courses": [
+        "West Lake Country Club",
+        "West Lake Country Club"
+      ],
+      "teams": [
+        {
+          "name": "Team 1",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 2",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 3",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "tripLeader": "mp1003",
+      "users": [
+        "mp1003"
+      ]
     }
   }
 }
