@@ -2076,7 +2076,18 @@
       "password": "$2b$10$7CBD0zAhMrGrSqez6hdBRubIWucUSYzpAJ8gJamNVXCQZSUK2FRa2",
       "name": "Avery Smoak",
       "handicap": 15,
-      "trips": {},
+      "trips": {
+        "TRIP_4L78PR": {
+          "raw_scores": [
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
