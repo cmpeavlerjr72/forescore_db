@@ -2070,6 +2070,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "averysmoak10",
+      "password": "$2b$10$7CBD0zAhMrGrSqez6hdBRubIWucUSYzpAJ8gJamNVXCQZSUK2FRa2",
+      "name": "Avery Smoak",
+      "handicap": 15,
+      "trips": {},
+      "friends": []
     }
   ]
 }
