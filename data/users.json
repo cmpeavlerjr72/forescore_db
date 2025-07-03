@@ -868,6 +868,10 @@
           "net_scores": [
             [],
             []
+          ],
+          "projected_points": [
+            0,
+            0
           ]
         }
       },
@@ -1391,6 +1395,10 @@
               0,
               0
             ]
+          ],
+          "projected_points": [
+            0,
+            0
           ]
         }
       },
@@ -2161,6 +2169,10 @@
           "net_scores": [
             [],
             []
+          ],
+          "projected_points": [
+            0,
+            0
           ]
         }
       },
