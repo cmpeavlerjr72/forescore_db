@@ -1492,6 +1492,14 @@
           "net_scores": [
             []
           ]
+        },
+        "TRIP_KGEINM": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
         }
       },
       "friends": []
