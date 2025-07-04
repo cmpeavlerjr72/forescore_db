@@ -514,6 +514,16 @@
           "net_scores": [
             []
           ]
+        },
+        "TRIP_EMTWUU": {
+          "raw_scores": [
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            []
+          ]
         }
       },
       "friends": []
