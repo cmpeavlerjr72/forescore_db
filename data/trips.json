@@ -1901,6 +1901,25 @@
       "users": [
         "test3"
       ]
+    },
+    "TRIP_EMTWUU": {
+      "tripId": "TRIP_EMTWUU",
+      "numTeams": 2,
+      "playersPerTeam": 4,
+      "numRounds": 2,
+      "scoringMethods": [
+        "match",
+        "stroke"
+      ],
+      "courses": [
+        "True Blue",
+        "True Blue"
+      ],
+      "teams": [],
+      "tripLeader": "test3",
+      "users": [
+        "test3"
+      ]
     }
   }
 }
