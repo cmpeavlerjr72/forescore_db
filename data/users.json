@@ -524,6 +524,16 @@
             [],
             []
           ]
+        },
+        "TRIP_ILMTUU": {
+          "raw_scores": [
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            []
+          ]
         }
       },
       "friends": []
