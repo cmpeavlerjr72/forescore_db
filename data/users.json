@@ -2362,6 +2362,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "Wtyre",
+      "password": "$2b$10$YeJIZtD6/PHnJXiz8cnxs.Xa4buHpc5jE3FOY8tPLkFduo.Lt9rGC",
+      "name": "Ward Tyre",
+      "handicap": null,
+      "trips": {},
+      "friends": []
     }
   ]
 }
