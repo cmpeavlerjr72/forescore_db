@@ -2326,13 +2326,21 @@
             0.5,
             2.4
           ]
+        },
+        "TRIP_FR7SGS": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
         }
       },
       "friends": []
     },
     {
       "username": "Catman123",
-      "password": "$2b$10$wnnS1Q6Gp3egVn71B8kTR.Im02jdByIMFueMbPAyxL1zZ5YgtroDa",
+      "password": "$2b$10$Pkvy/x5KtP3dJ0kAJnnn6Oyss5ovHpMYtQi7LBIzQzk0B90v/qY0.",
       "name": "Harrison ",
       "handicap": 12,
       "trips": {},
