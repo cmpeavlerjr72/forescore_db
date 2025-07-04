@@ -498,6 +498,14 @@
           "projected_points": [
             0.5
           ]
+        },
+        "TRIP_V7YAHX": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
         }
       },
       "friends": []
