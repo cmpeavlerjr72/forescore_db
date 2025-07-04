@@ -2329,6 +2329,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "Catman123",
+      "password": "$2b$10$wnnS1Q6Gp3egVn71B8kTR.Im02jdByIMFueMbPAyxL1zZ5YgtroDa",
+      "name": "Harrison ",
+      "handicap": 12,
+      "trips": {},
+      "friends": []
     }
   ]
 }
