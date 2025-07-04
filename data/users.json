@@ -546,6 +546,14 @@
             [],
             []
           ]
+        },
+        "TRIP_SJATUK": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
         }
       },
       "friends": []
