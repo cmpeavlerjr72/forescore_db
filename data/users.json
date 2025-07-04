@@ -2385,7 +2385,16 @@
       "password": "$2b$10$XZgAyRkdAhhB4emQl7EDUe6/kinYIYG4qKqoPi/eZnXtoDCCvahe.",
       "name": "Trent moore",
       "handicap": 13,
-      "trips": {},
+      "trips": {
+        "TRIP_FR7SGS": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
