@@ -1815,6 +1815,23 @@
         "mp1003"
       ],
       "lineups": {}
+    },
+    "TRIP_QOXHDJ": {
+      "tripId": "TRIP_QOXHDJ",
+      "numTeams": 2,
+      "playersPerTeam": 4,
+      "numRounds": 1,
+      "scoringMethods": [
+        "stroke"
+      ],
+      "courses": [
+        "Rocky Branch Golf Club"
+      ],
+      "teams": [],
+      "tripLeader": "mp1003",
+      "users": [
+        "mp1003"
+      ]
     }
   }
 }
