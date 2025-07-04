@@ -2343,7 +2343,16 @@
       "password": "$2b$10$Pkvy/x5KtP3dJ0kAJnnn6Oyss5ovHpMYtQi7LBIzQzk0B90v/qY0.",
       "name": "Harrison ",
       "handicap": 12,
-      "trips": {},
+      "trips": {
+        "TRIP_FR7SGS": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     },
     {
