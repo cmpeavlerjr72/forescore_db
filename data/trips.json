@@ -2209,7 +2209,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "",
               "scores": [
                 0
               ],
@@ -2219,32 +2219,32 @@
             },
             {
               "id": 2,
-              "name": "Player 2",
+              "name": "",
               "scores": [
                 0
               ],
               "lineupOrder": [
-                1
+                0
               ]
             },
             {
               "id": 3,
-              "name": "Player 3",
+              "name": "",
               "scores": [
                 0
               ],
               "lineupOrder": [
-                2
+                0
               ]
             },
             {
               "id": 4,
-              "name": "Player 4",
+              "name": "",
               "scores": [
                 0
               ],
               "lineupOrder": [
-                3
+                0
               ]
             }
           ]
@@ -2254,7 +2254,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "",
               "scores": [
                 0
               ],
@@ -2264,32 +2264,32 @@
             },
             {
               "id": 2,
-              "name": "Player 2",
+              "name": "",
               "scores": [
                 0
               ],
               "lineupOrder": [
-                1
+                0
               ]
             },
             {
               "id": 3,
-              "name": "Player 3",
+              "name": "",
               "scores": [
                 0
               ],
               "lineupOrder": [
-                2
+                0
               ]
             },
             {
               "id": 4,
-              "name": "Player 4",
+              "name": "",
               "scores": [
                 0
               ],
               "lineupOrder": [
-                3
+                0
               ]
             }
           ]
@@ -2298,7 +2298,8 @@
       "tripLeader": "averysmoak10",
       "users": [
         "averysmoak10"
-      ]
+      ],
+      "lineups": {}
     }
   }
 }
