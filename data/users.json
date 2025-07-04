@@ -2460,7 +2460,16 @@
       "password": "$2b$10$wBX1MyJeXd1oxpUxAWfYQukcjz7YMHP0J.DKxF0nnIVw/dQZGonZO",
       "name": "John-Christian ",
       "handicap": 5,
-      "trips": {},
+      "trips": {
+        "TRIP_FR7SGS": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
