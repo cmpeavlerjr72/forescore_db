@@ -1867,6 +1867,23 @@
       "users": [
         "test3"
       ]
+    },
+    "TRIP_CQFR9X": {
+      "tripId": "TRIP_CQFR9X",
+      "numTeams": 2,
+      "playersPerTeam": 4,
+      "numRounds": 1,
+      "scoringMethods": [
+        "stroke"
+      ],
+      "courses": [
+        "Rocky Branch Golf Club"
+      ],
+      "teams": [],
+      "tripLeader": "mp1003",
+      "users": [
+        "mp1003"
+      ]
     }
   }
 }
