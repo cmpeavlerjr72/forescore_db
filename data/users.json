@@ -2351,7 +2351,16 @@
       "password": "$2b$10$ppFWHxtK8SnyjDVIDWXFZeNfjDgvLjIYK/3t4G7aBmizYUuhAn2s.",
       "name": "JohnMichael",
       "handicap": 17,
-      "trips": {},
+      "trips": {
+        "TRIP_FR7SGS": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
