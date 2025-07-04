@@ -2345,6 +2345,14 @@
       "handicap": 12,
       "trips": {},
       "friends": []
+    },
+    {
+      "username": "JM",
+      "password": "$2b$10$ppFWHxtK8SnyjDVIDWXFZeNfjDgvLjIYK/3t4G7aBmizYUuhAn2s.",
+      "name": "JohnMichael",
+      "handicap": 17,
+      "trips": {},
+      "friends": []
     }
   ]
 }
