@@ -1884,6 +1884,23 @@
       "users": [
         "mp1003"
       ]
+    },
+    "TRIP_BZ06ZU": {
+      "tripId": "TRIP_BZ06ZU",
+      "numTeams": 2,
+      "playersPerTeam": 4,
+      "numRounds": 1,
+      "scoringMethods": [
+        "match"
+      ],
+      "courses": [
+        "True Blue"
+      ],
+      "teams": [],
+      "tripLeader": "test3",
+      "users": [
+        "test3"
+      ]
     }
   }
 }
