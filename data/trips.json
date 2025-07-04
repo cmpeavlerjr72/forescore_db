@@ -1791,6 +1791,23 @@
           ]
         }
       }
+    },
+    "TRIP_FR7SGS": {
+      "tripId": "TRIP_FR7SGS",
+      "numTeams": 2,
+      "playersPerTeam": 4,
+      "numRounds": 1,
+      "scoringMethods": [
+        "stroke"
+      ],
+      "courses": [
+        "Rocky Branch Golf Club"
+      ],
+      "teams": [],
+      "tripLeader": "averysmoak10",
+      "users": [
+        "averysmoak10"
+      ]
     }
   }
 }
