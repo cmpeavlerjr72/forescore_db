@@ -1476,6 +1476,14 @@
             0.5,
             3
           ]
+        },
+        "TRIP_FR7SGS": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
         }
       },
       "friends": []
