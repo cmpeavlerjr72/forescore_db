@@ -1832,6 +1832,23 @@
       "users": [
         "mp1003"
       ]
+    },
+    "TRIP_KGEINM": {
+      "tripId": "TRIP_KGEINM",
+      "numTeams": 2,
+      "playersPerTeam": 4,
+      "numRounds": 1,
+      "scoringMethods": [
+        "match"
+      ],
+      "courses": [
+        "Rocky Branch Golf Club"
+      ],
+      "teams": [],
+      "tripLeader": "mp1003",
+      "users": [
+        "mp1003"
+      ]
     }
   }
 }
