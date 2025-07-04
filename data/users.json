@@ -2411,7 +2411,16 @@
       "password": "$2b$10$o2HOyPKlhY1IDshEAFNvYe2ITf5oSguVkx3WszB.HryBF7sf5mqEC",
       "name": "West ",
       "handicap": 6.3,
-      "trips": {},
+      "trips": {
+        "TRIP_FR7SGS": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
