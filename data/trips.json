@@ -2307,6 +2307,23 @@
         "averysmoak10"
       ],
       "lineups": {}
+    },
+    "TRIP_JMMR21": {
+      "tripId": "TRIP_JMMR21",
+      "numTeams": 2,
+      "playersPerTeam": 4,
+      "numRounds": 1,
+      "scoringMethods": [
+        "match"
+      ],
+      "courses": [
+        "True Blue"
+      ],
+      "teams": [],
+      "tripLeader": "mp1003",
+      "users": [
+        "mp1003"
+      ]
     }
   }
 }
