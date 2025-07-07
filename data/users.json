@@ -1572,6 +1572,14 @@
           "net_scores": [
             []
           ]
+        },
+        "TRIP_JMMR21": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
         }
       },
       "friends": []
