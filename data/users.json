@@ -1664,7 +1664,7 @@
             []
           ],
           "projected_points": [
-            0
+            0.5
           ]
         },
         "TRIP_ZU04PS": {
@@ -1859,6 +1859,11 @@
               0,
               0
             ]
+          ]
+        },
+        "TRIP_ALEJNH": {
+          "projected_points": [
+            0.5
           ]
         }
       },
