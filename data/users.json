@@ -562,6 +562,18 @@
           "net_scores": [
             []
           ]
+        },
+        "TRIP_XI293B": {
+          "raw_scores": [
+            [],
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            [],
+            []
+          ]
         }
       },
       "friends": []
