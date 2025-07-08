@@ -907,6 +907,16 @@
           "projected_points": [
             2
           ]
+        },
+        "TRIP_87RK71": {
+          "raw_scores": [
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            []
+          ]
         }
       },
       "friends": []
