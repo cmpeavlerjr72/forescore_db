@@ -3098,6 +3098,168 @@
       "users": [
         "test5"
       ]
+    },
+    "TRIP_KHELXS": {
+      "tripId": "TRIP_KHELXS",
+      "numTeams": 2,
+      "playersPerTeam": 4,
+      "numRounds": 4,
+      "scoringMethods": [
+        "match",
+        "match",
+        "match",
+        "match"
+      ],
+      "courses": [
+        "Augusta National Golf Club (Members)",
+        "Kiawah Island (Ocean Course)",
+        "Pebble Beach",
+        "St. Andrews (Old Course)"
+      ],
+      "teams": [
+        {
+          "name": "Team 1",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Player 3",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 4,
+              "name": "Player 4",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 2",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Player 3",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 4,
+              "name": "Player 4",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "tripLeader": "test5",
+      "users": [
+        "test5"
+      ]
     }
   }
 }
