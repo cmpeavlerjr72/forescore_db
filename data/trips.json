@@ -2924,6 +2924,72 @@
       "users": [
         "test4"
       ]
+    },
+    "TRIP_4LGP8A": {
+      "tripId": "TRIP_4LGP8A",
+      "numTeams": 2,
+      "playersPerTeam": 1,
+      "numRounds": 4,
+      "scoringMethods": [
+        "match",
+        "stroke",
+        "match",
+        "stroke"
+      ],
+      "courses": [
+        "Augusta National Golf Club (Members)",
+        "Kiawah Island (Ocean Course)",
+        "Pebble Beach",
+        "St. Andrews (Old Course)"
+      ],
+      "teams": [
+        {
+          "name": "Team 1",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 2",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "tripLeader": "test5",
+      "users": [
+        "test5"
+      ]
     }
   }
 }
