@@ -1377,6 +1377,20 @@
           "projected_points": [
             0.5
           ]
+        },
+        "TRIP_4LGP8A": {
+          "raw_scores": [
+            [],
+            [],
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            [],
+            [],
+            []
+          ]
         }
       },
       "friends": []
