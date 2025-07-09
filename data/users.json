@@ -2702,7 +2702,16 @@
       "password": "$2b$10$DE/eSlmFtnVOFBhltuTtce9PmFzGfWy1GOse2aQi8q4EZOmt2K/0.",
       "name": "Will Lawrence ",
       "handicap": 26.9,
-      "trips": {},
+      "trips": {
+        "TRIP_HWKWFX": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
