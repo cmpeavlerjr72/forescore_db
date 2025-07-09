@@ -2674,7 +2674,16 @@
       "password": "$2b$10$ud7jg8sysWTHrZR8o5j5a.NW1hh6c3z3W5vr0Qxn1bMQN/eMovCQa",
       "name": "Will",
       "handicap": 13.8,
-      "trips": {},
+      "trips": {
+        "TRIP_HWKWFX": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     },
     {
