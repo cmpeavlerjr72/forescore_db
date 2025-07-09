@@ -2694,7 +2694,16 @@
       "password": "$2b$10$CmOupDMCSEELGcF4OJJvU.5Df1cHz9sWPDagzRiIYBFnvj/YtGGr6",
       "name": "Keith",
       "handicap": 26,
-      "trips": {},
+      "trips": {
+        "TRIP_HWKWFX": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     },
     {
