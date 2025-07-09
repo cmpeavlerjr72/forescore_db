@@ -3278,7 +3278,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "owenwill01",
               "scores": [
                 0
               ],
@@ -3293,7 +3293,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "",
               "scores": [
                 0
               ],
@@ -3308,7 +3308,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "",
               "scores": [
                 0
               ],
@@ -3322,7 +3322,8 @@
       "tripLeader": "owenwill01",
       "users": [
         "owenwill01"
-      ]
+      ],
+      "lineups": {}
     }
   }
 }
