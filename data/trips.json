@@ -3326,6 +3326,200 @@
         "Gtcivil07"
       ],
       "lineups": {}
+    },
+    "TRIP_BVEBUR": {
+      "tripId": "TRIP_BVEBUR",
+      "numTeams": 2,
+      "playersPerTeam": 5,
+      "numRounds": 4,
+      "scoringMethods": [
+        "match",
+        "stroke",
+        "match",
+        "stroke"
+      ],
+      "courses": [
+        "Augusta National Golf Club (Members)",
+        "Kiawah Island (Ocean Course)",
+        "Pebble Beach",
+        "St. Andrews (Old Course)"
+      ],
+      "teams": [
+        {
+          "name": "Team 1",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Player 3",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 4,
+              "name": "Player 4",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 5,
+              "name": "Player 5",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 2",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Player 2",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Player 3",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 4,
+              "name": "Player 4",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": 5,
+              "name": "Player 5",
+              "scores": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "lineupOrder": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "tripLeader": "mp1003",
+      "users": [
+        "mp1003"
+      ]
     }
   }
 }
