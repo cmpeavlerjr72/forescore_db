@@ -1676,6 +1676,20 @@
           "net_scores": [
             []
           ]
+        },
+        "TRIP_BVEBUR": {
+          "raw_scores": [
+            [],
+            [],
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            [],
+            [],
+            []
+          ]
         }
       },
       "friends": []
