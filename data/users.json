@@ -2885,9 +2885,17 @@
     },
     {
       "username": "Chase",
-      "password": "$2b$10$zJfLdCgxXS3irdIeH5F4Q.Zkvp/SC.7xSGEwZdxNc76S9q7YiVmDy",
+      "password": "$2b$10$h5oi/qUPTpjIXQYEYGXoDuJaWsMOSMGwdMcJV4tMVKOKVhgPM.u3.",
       "name": "Chase Langford",
       "handicap": 4,
+      "trips": {},
+      "friends": []
+    },
+    {
+      "username": "MatthewSyfrett",
+      "password": "$2b$10$4QXR2L2qaUyLL6B5FPQn9u3V/ZQ3OTeCbV9J7cZrhE90591MM0R4m",
+      "name": "Matthew Syfrett",
+      "handicap": 11,
       "trips": {},
       "friends": []
     }
