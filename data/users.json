@@ -2882,6 +2882,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "Chase",
+      "password": "$2b$10$zJfLdCgxXS3irdIeH5F4Q.Zkvp/SC.7xSGEwZdxNc76S9q7YiVmDy",
+      "name": "Chase Langford",
+      "handicap": 4,
+      "trips": {},
+      "friends": []
     }
   ]
 }
