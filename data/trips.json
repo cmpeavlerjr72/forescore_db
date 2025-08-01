@@ -3795,7 +3795,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "averysmoak10",
               "scores": [
                 0
               ],
@@ -3810,7 +3810,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "MatthewSyfrett",
               "scores": [
                 0
               ],
@@ -3825,7 +3825,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "davismoreland",
               "scores": [
                 0
               ],
@@ -3840,7 +3840,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "adamvigneri",
               "scores": [
                 0
               ],
@@ -3855,7 +3855,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "Chase252517",
               "scores": [
                 0
               ],
@@ -3870,7 +3870,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "Jtgreenway",
               "scores": [
                 0
               ],
@@ -3885,7 +3885,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "",
               "scores": [
                 0
               ],
@@ -3900,7 +3900,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "",
               "scores": [
                 0
               ],
@@ -3915,7 +3915,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "",
               "scores": [
                 0
               ],
@@ -3930,7 +3930,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "",
               "scores": [
                 0
               ],
@@ -3949,7 +3949,8 @@
         "adamvigneri",
         "Chase252517",
         "Jtgreenway"
-      ]
+      ],
+      "lineups": {}
     }
   }
 }
