@@ -3038,7 +3038,16 @@
       "password": "$2b$10$g2GKQQ0c/W0KrjMZp77TxORiDbh4NEXqzASPLJ16su9p0nR7btJ/.",
       "name": "Adam Vigneri",
       "handicap": 12,
-      "trips": {},
+      "trips": {
+        "TRIP_LCMPQJ": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     },
     {
