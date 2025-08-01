@@ -3095,7 +3095,16 @@
       "password": "$2b$10$4dJ/8lyea8R3YFTHErDOCuDrFa8KBMQqKzO43OLd/3wzGxyks6uKG",
       "name": "Davis",
       "handicap": null,
-      "trips": {},
+      "trips": {
+        "TRIP_LCMPQJ": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
