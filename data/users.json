@@ -3037,6 +3037,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "Strobel24",
+      "password": "$2b$10$730Hz9SLfxGBmjjibvozbuBTjFGmJWqhjfY/7CPGr9yzjpCfNEmCa",
+      "name": "Eric Strobel",
+      "handicap": 18,
+      "trips": {},
+      "friends": []
     }
   ]
 }
