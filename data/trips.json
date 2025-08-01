@@ -3713,7 +3713,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "mvpeav",
               "scores": [
                 0
               ],
@@ -3728,7 +3728,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "Strobel24",
               "scores": [
                 0
               ],
@@ -3743,7 +3743,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "Jack20",
               "scores": [
                 0
               ],
@@ -3758,7 +3758,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "",
               "scores": [
                 0
               ],
@@ -3774,7 +3774,8 @@
         "mvpeav",
         "Strobel24",
         "Jack20"
-      ]
+      ],
+      "lineups": {}
     },
     "TRIP_LCMPQJ": {
       "tripId": "TRIP_LCMPQJ",
