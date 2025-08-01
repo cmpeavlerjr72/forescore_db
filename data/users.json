@@ -3089,6 +3089,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "davismoreland",
+      "password": "$2b$10$4dJ/8lyea8R3YFTHErDOCuDrFa8KBMQqKzO43OLd/3wzGxyks6uKG",
+      "name": "Davis",
+      "handicap": null,
+      "trips": {},
+      "friends": []
     }
   ]
 }
