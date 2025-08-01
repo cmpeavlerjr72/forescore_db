@@ -3020,6 +3020,14 @@
       "handicap": 35,
       "trips": {},
       "friends": []
+    },
+    {
+      "username": "mvpeav",
+      "password": "$2b$10$Z7BSVdi4TUuscf6nakz7IO/idlCgC4hkAq1N.rsRQjl0CoJcOmNxG",
+      "name": "Mitchell Peavler",
+      "handicap": 19,
+      "trips": {},
+      "friends": []
     }
   ]
 }
