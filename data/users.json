@@ -3330,6 +3330,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "Lanesmoak3",
+      "password": "$2b$10$wMU3kuyhqYBBthKvHK2/Eel72.v.phxeVZRnKVLPnjTQZ5cADWk1y",
+      "name": "Lane Smoak",
+      "handicap": 5.3,
+      "trips": {},
+      "friends": []
     }
   ]
 }
