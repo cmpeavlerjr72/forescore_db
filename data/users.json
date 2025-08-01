@@ -3143,6 +3143,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "Jtgreenway",
+      "password": "$2b$10$9SWyOPuyHBRcCmOQcGbAeOcYqgJ.5xpz0fs5Qghfv5BWbx2TG4oTe",
+      "name": "Josh Greenway",
+      "handicap": 13,
+      "trips": {},
+      "friends": []
     }
   ]
 }
