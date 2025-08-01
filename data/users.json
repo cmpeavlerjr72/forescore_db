@@ -2560,6 +2560,9 @@
           ],
           "net_scores": [
             []
+          ],
+          "projected_points": [
+            0
           ]
         }
       },
