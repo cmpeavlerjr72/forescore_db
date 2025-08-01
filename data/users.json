@@ -3132,7 +3132,16 @@
       "password": "$2b$10$S0A.EdSYS/ggXiYQTj5efOH3fvGwEU5x72mj3Uknfpn2cq8jDy3nu",
       "name": "Chase",
       "handicap": 4,
-      "trips": {},
+      "trips": {
+        "TRIP_LCMPQJ": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
