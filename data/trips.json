@@ -3567,6 +3567,84 @@
           ]
         }
       }
+    },
+    "TRIP_OLT0CJ": {
+      "tripId": "TRIP_OLT0CJ",
+      "numTeams": 4,
+      "playersPerTeam": 1,
+      "numRounds": 1,
+      "scoringMethods": [
+        "skins"
+      ],
+      "courses": [
+        "Lost Plantation (Rincon)"
+      ],
+      "teams": [
+        {
+          "name": "Team 1",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 2",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 3",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Team 4",
+          "players": [
+            {
+              "id": 1,
+              "name": "Player 1",
+              "scores": [
+                0
+              ],
+              "lineupOrder": [
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "tripLeader": "test3",
+      "users": [
+        "test3"
+      ]
     }
   }
 }
