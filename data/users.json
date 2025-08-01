@@ -3012,6 +3012,14 @@
       "handicap": 12,
       "trips": {},
       "friends": []
+    },
+    {
+      "username": "Jack20",
+      "password": "$2b$10$36sg0wkENVSUBHDe.agxfOifw2pZJDJnj8TsjKY9M1CgGvYB1mWPq",
+      "name": "Jack Pharis",
+      "handicap": 35,
+      "trips": {},
+      "friends": []
     }
   ]
 }
