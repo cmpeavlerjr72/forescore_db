@@ -2701,6 +2701,14 @@
           "net_scores": [
             []
           ]
+        },
+        "TRIP_LCMPQJ": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
         }
       },
       "friends": []
