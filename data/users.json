@@ -3010,7 +3010,16 @@
       "password": "$2b$10$4QXR2L2qaUyLL6B5FPQn9u3V/ZQ3OTeCbV9J7cZrhE90591MM0R4m",
       "name": "Matthew Syfrett",
       "handicap": 11,
-      "trips": {},
+      "trips": {
+        "TRIP_LCMPQJ": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     },
     {
