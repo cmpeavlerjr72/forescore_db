@@ -267,7 +267,7 @@
             ]
           ],
           "projected_points": [
-            0
+            0.5
           ]
         },
         "TRIP_5AV1A2": {
@@ -562,6 +562,125 @@
           "net_scores": [
             []
           ]
+        },
+        "TRIP_XI293B": {
+          "raw_scores": [
+            [],
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            [],
+            []
+          ]
+        },
+        "TRIP_IZXFCW": {
+          "raw_scores": [
+            [],
+            [],
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        "TRIP_8A7ZBU": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        },
+        "TRIP_HZ3H71": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        },
+        "TRIP_BVEBUR": {
+          "raw_scores": [
+            [],
+            [],
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            [],
+            [],
+            []
+          ],
+          "projected_points": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "TRIP_OLT0CJ": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        },
+        "TRIP_07I0Z7": {
+          "raw_scores": [
+            [
+              4,
+              5,
+              6,
+              2,
+              4,
+              3,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "net_scores": [
+            [
+              3,
+              4,
+              6,
+              2,
+              3,
+              3,
+              5,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "projected_points": [
+            0
+          ]
         }
       },
       "friends": []
@@ -675,7 +794,7 @@
             []
           ],
           "projected_points": [
-            0
+            0.5
           ]
         },
         "TRIP_ZU04PS": {
@@ -864,6 +983,65 @@
           ],
           "projected_points": [
             2
+          ]
+        },
+        "TRIP_87RK71": {
+          "raw_scores": [
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            []
+          ]
+        },
+        "TRIP_07I0Z7": {
+          "raw_scores": [
+            [
+              4,
+              4,
+              8,
+              3,
+              4,
+              3,
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "net_scores": [
+            [
+              3,
+              3,
+              7,
+              2,
+              3,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "projected_points": [
+            0
           ]
         }
       },
@@ -1325,6 +1503,42 @@
           "projected_points": [
             0.5
           ]
+        },
+        "TRIP_4LGP8A": {
+          "raw_scores": [
+            [],
+            [],
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        "TRIP_38CMG6": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        },
+        "TRIP_KHELXS": {
+          "raw_scores": [
+            [],
+            [],
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            [],
+            [],
+            []
+          ]
         }
       },
       "friends": []
@@ -1572,6 +1786,42 @@
           "net_scores": [
             []
           ]
+        },
+        "TRIP_JMMR21": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        },
+        "TRIP_HNUG0H": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        },
+        "TRIP_BVEBUR": {
+          "raw_scores": [
+            [],
+            [],
+            [],
+            []
+          ],
+          "net_scores": [
+            [],
+            [],
+            [],
+            []
+          ],
+          "projected_points": [
+            0,
+            0,
+            0,
+            0
+          ]
         }
       },
       "friends": []
@@ -1636,7 +1886,7 @@
             []
           ],
           "projected_points": [
-            0
+            0.5
           ]
         },
         "TRIP_ZU04PS": {
@@ -1831,6 +2081,11 @@
               0,
               0
             ]
+          ]
+        },
+        "TRIP_ALEJNH": {
+          "projected_points": [
+            0.5
           ]
         }
       },
@@ -2298,6 +2553,55 @@
             2.8000000000000003,
             1.5
           ]
+        },
+        "TRIP_R8FS0R": {
+          "raw_scores": [
+            [
+              8,
+              6,
+              6,
+              6,
+              3,
+              6,
+              5,
+              5,
+              6,
+              6,
+              4,
+              7,
+              4,
+              4,
+              6,
+              6,
+              5,
+              6
+            ]
+          ],
+          "net_scores": [
+            [
+              7,
+              5,
+              5,
+              5,
+              2,
+              5,
+              4,
+              4,
+              5,
+              5,
+              3,
+              6,
+              3,
+              3,
+              5,
+              5,
+              4,
+              5
+            ]
+          ],
+          "projected_points": [
+            0
+          ]
         }
       },
       "friends": []
@@ -2446,6 +2750,17 @@
           "net_scores": [
             []
           ]
+        },
+        "TRIP_LCMPQJ": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ],
+          "projected_points": [
+            1.8800000000000003
+          ]
         }
       },
       "friends": []
@@ -2561,8 +2876,509 @@
       "friends": []
     },
     {
+      "username": "owenwill01",
+      "password": "$2b$10$ud7jg8sysWTHrZR8o5j5a.NW1hh6c3z3W5vr0Qxn1bMQN/eMovCQa",
+      "name": "Will",
+      "handicap": 13.8,
+      "trips": {
+        "TRIP_HWKWFX": {
+          "raw_scores": [
+            [
+              5,
+              6,
+              3,
+              4,
+              6,
+              4,
+              5,
+              4,
+              7,
+              4,
+              5,
+              6,
+              5,
+              5,
+              5,
+              3,
+              5,
+              6
+            ]
+          ],
+          "net_scores": [
+            [
+              4,
+              5,
+              3,
+              3,
+              5,
+              3,
+              4,
+              3,
+              7,
+              3,
+              4,
+              6,
+              5,
+              4,
+              4,
+              2,
+              4,
+              5
+            ]
+          ],
+          "projected_points": [
+            3
+          ]
+        }
+      },
+      "friends": []
+    },
+    {
+      "username": "Gtcivil07",
+      "password": "$2b$10$CmOupDMCSEELGcF4OJJvU.5Df1cHz9sWPDagzRiIYBFnvj/YtGGr6",
+      "name": "Keith",
+      "handicap": 26,
+      "trips": {
+        "TRIP_HWKWFX": {
+          "raw_scores": [
+            [
+              6,
+              7,
+              3,
+              7,
+              7,
+              5,
+              6,
+              5,
+              5,
+              7,
+              5,
+              3,
+              5,
+              5,
+              5,
+              4,
+              5,
+              8
+            ]
+          ],
+          "net_scores": [
+            [
+              5,
+              6,
+              2,
+              5,
+              5,
+              3,
+              4,
+              4,
+              4,
+              5,
+              4,
+              2,
+              4,
+              3,
+              4,
+              2,
+              4,
+              6
+            ]
+          ],
+          "projected_points": [
+            4
+          ]
+        }
+      },
+      "friends": []
+    },
+    {
+      "username": "Will21",
+      "password": "$2b$10$DE/eSlmFtnVOFBhltuTtce9PmFzGfWy1GOse2aQi8q4EZOmt2K/0.",
+      "name": "Will Lawrence ",
+      "handicap": 26.9,
+      "trips": {
+        "TRIP_HWKWFX": {
+          "raw_scores": [
+            [
+              8,
+              8,
+              4,
+              7,
+              6,
+              4,
+              7,
+              5,
+              5,
+              6,
+              6,
+              6,
+              6,
+              5,
+              6,
+              5,
+              7,
+              8
+            ]
+          ],
+          "net_scores": [
+            [
+              6,
+              7,
+              3,
+              5,
+              4,
+              2,
+              5,
+              4,
+              4,
+              4,
+              5,
+              5,
+              5,
+              3,
+              5,
+              3,
+              6,
+              6
+            ]
+          ],
+          "projected_points": [
+            2.4
+          ]
+        }
+      },
+      "friends": []
+    },
+    {
+      "username": "Chase",
+      "password": "$2b$10$h5oi/qUPTpjIXQYEYGXoDuJaWsMOSMGwdMcJV4tMVKOKVhgPM.u3.",
+      "name": "Chase Langford",
+      "handicap": 4,
+      "trips": {},
+      "friends": []
+    },
+    {
+      "username": "MatthewSyfrett",
+      "password": "$2b$10$4QXR2L2qaUyLL6B5FPQn9u3V/ZQ3OTeCbV9J7cZrhE90591MM0R4m",
+      "name": "Matthew Syfrett",
+      "handicap": 11,
+      "trips": {
+        "TRIP_LCMPQJ": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ],
+          "projected_points": [
+            1.8800000000000003
+          ]
+        }
+      },
+      "friends": []
+    },
+    {
+      "username": "adamvigneri",
+      "password": "$2b$10$g2GKQQ0c/W0KrjMZp77TxORiDbh4NEXqzASPLJ16su9p0nR7btJ/.",
+      "name": "Adam Vigneri",
+      "handicap": 12,
+      "trips": {
+        "TRIP_LCMPQJ": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ],
+          "projected_points": [
+            1.8800000000000003
+          ]
+        }
+      },
+      "friends": []
+    },
+    {
+      "username": "Jack20",
+      "password": "$2b$10$tc5oViZTIRS3yNSmDTieFuB.tIi8ypXndXT5vakGnObLnfxii3wlu",
+      "name": "Jack Pharis",
+      "handicap": 35,
+      "trips": {
+        "TRIP_R8FS0R": {
+          "raw_scores": [
+            [
+              8,
+              8,
+              8,
+              8,
+              3,
+              6,
+              5,
+              4,
+              11,
+              9,
+              9,
+              5,
+              6,
+              8,
+              8,
+              12,
+              10,
+              8
+            ]
+          ],
+          "net_scores": [
+            [
+              6,
+              6,
+              6,
+              6,
+              2,
+              4,
+              3,
+              2,
+              9,
+              7,
+              7,
+              3,
+              4,
+              6,
+              6,
+              10,
+              8,
+              6
+            ]
+          ],
+          "projected_points": [
+            0
+          ]
+        }
+      },
+      "friends": []
+    },
+    {
+      "username": "mvpeav",
+      "password": "$2b$10$Z7BSVdi4TUuscf6nakz7IO/idlCgC4hkAq1N.rsRQjl0CoJcOmNxG",
+      "name": "Mitchell Peavler",
+      "handicap": 19,
+      "trips": {
+        "TRIP_R8FS0R": {
+          "raw_scores": [
+            [
+              6,
+              6,
+              7,
+              6,
+              4,
+              5,
+              4,
+              5,
+              5,
+              5,
+              4,
+              6,
+              5,
+              5,
+              6,
+              6,
+              7,
+              5
+            ]
+          ],
+          "net_scores": [
+            [
+              5,
+              5,
+              6,
+              5,
+              3,
+              4,
+              3,
+              4,
+              4,
+              4,
+              3,
+              5,
+              4,
+              4,
+              4,
+              5,
+              6,
+              4
+            ]
+          ],
+          "projected_points": [
+            0
+          ]
+        }
+      },
+      "friends": []
+    },
+    {
+      "username": "Strobel24",
+      "password": "$2b$10$730Hz9SLfxGBmjjibvozbuBTjFGmJWqhjfY/7CPGr9yzjpCfNEmCa",
+      "name": "Eric Strobel",
+      "handicap": 18,
+      "trips": {
+        "TRIP_R8FS0R": {
+          "raw_scores": [
+            [
+              5,
+              5,
+              6,
+              8,
+              6,
+              5,
+              4,
+              5,
+              5,
+              6,
+              7,
+              7,
+              3,
+              6,
+              7,
+              6,
+              7,
+              6
+            ]
+          ],
+          "net_scores": [
+            [
+              4,
+              4,
+              5,
+              7,
+              5,
+              4,
+              3,
+              4,
+              4,
+              5,
+              6,
+              6,
+              2,
+              5,
+              6,
+              5,
+              6,
+              5
+            ]
+          ],
+          "projected_points": [
+            0
+          ]
+        }
+      },
+      "friends": []
+    },
+    {
+      "username": "davismoreland",
+      "password": "$2b$10$4dJ/8lyea8R3YFTHErDOCuDrFa8KBMQqKzO43OLd/3wzGxyks6uKG",
+      "name": "Davis",
+      "handicap": null,
+      "trips": {
+        "TRIP_LCMPQJ": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ],
+          "projected_points": [
+            1.8800000000000003
+          ]
+        }
+      },
+      "friends": []
+    },
+    {
+      "username": "Chase252517",
+      "password": "$2b$10$S0A.EdSYS/ggXiYQTj5efOH3fvGwEU5x72mj3Uknfpn2cq8jDy3nu",
+      "name": "Chase",
+      "handicap": 4,
+      "trips": {
+        "TRIP_LCMPQJ": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ],
+          "projected_points": [
+            1.8800000000000003
+          ]
+        }
+      },
+      "friends": []
+    },
+    {
+      "username": "Jtgreenway",
+      "password": "$2b$10$9SWyOPuyHBRcCmOQcGbAeOcYqgJ.5xpz0fs5Qghfv5BWbx2TG4oTe",
+      "name": "Josh Greenway",
+      "handicap": 13,
+      "trips": {
+        "TRIP_LCMPQJ": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ],
+          "projected_points": [
+            1.8800000000000003
+          ]
+        }
+      },
+      "friends": []
+    },
+    {
+      "username": "Lanesmoak3",
+      "password": "$2b$10$wMU3kuyhqYBBthKvHK2/Eel72.v.phxeVZRnKVLPnjTQZ5cADWk1y",
+      "name": "Lane Smoak",
+      "handicap": 5.3,
+      "trips": {},
+      "friends": []
+    },
+    {
+      "username": "Lanesmoak",
+      "password": "$2b$10$EyTtrg9yCYkeyALN5KnXeuFlwGOkxmaGPru8flNCVaTpPwL80W3M2",
+      "name": "Lane Smoak",
+      "handicap": 5.3,
+      "trips": {
+        "TRIP_LCMPQJ": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ],
+          "projected_points": [
+            1.8800000000000003
+          ]
+        }
+      },
+      "friends": []
+    },
+    {
+      "username": "JoeMama69",
+      "password": "$2b$10$GN5wq3GmMeCF1Nqiqh3kfOhapnO/YB.Y9Y8sJ1mSE/xmp3OXUBrZ2",
+      "name": "Joe Sandoz",
+      "handicap": 14.5,
+      "trips": {
+        "TRIP_LCMPQJ": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
+      "friends": []
+    },
+    {
       "username": "Shooter McGavin",
-      "password": "$2b$10$MUd4YT7sAhiqxm2CQGdny.43r4BuYbDUPVMqb5f9bHEs.nDYoLTWy",
+      "password": "$2b$10$yuYHsRKy/UPckShvMxc90.dzmZu5EV.xAkJKHuBVARd68xuTVacCC",
       "name": "Cole",
       "handicap": 25,
       "trips": {},
