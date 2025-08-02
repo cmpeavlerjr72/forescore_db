@@ -3358,6 +3358,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "JoeMama69",
+      "password": "$2b$10$GN5wq3GmMeCF1Nqiqh3kfOhapnO/YB.Y9Y8sJ1mSE/xmp3OXUBrZ2",
+      "name": "Joe Sandoz",
+      "handicap": 14.5,
+      "trips": {},
+      "friends": []
     }
   ]
 }
