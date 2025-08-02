@@ -3444,6 +3444,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "peyton_mercer",
+      "password": "$2b$10$I3Bjc2xXu8XDku9DNp9ph.e.vc7Rt/f6LVJY155jTyxuLOUSQ6t4G",
+      "name": "Peyton Mercer",
+      "handicap": 30,
+      "trips": {},
+      "friends": []
     }
   ]
 }
