@@ -3344,7 +3344,16 @@
       "password": "$2b$10$EyTtrg9yCYkeyALN5KnXeuFlwGOkxmaGPru8flNCVaTpPwL80W3M2",
       "name": "Lane Smoak",
       "handicap": 5.3,
-      "trips": {},
+      "trips": {
+        "TRIP_LCMPQJ": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
