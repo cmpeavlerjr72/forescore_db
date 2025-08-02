@@ -3371,6 +3371,9 @@
           ],
           "net_scores": [
             []
+          ],
+          "projected_points": [
+            0
           ]
         }
       },
@@ -3396,6 +3399,9 @@
           ],
           "net_scores": [
             []
+          ],
+          "projected_points": [
+            0
           ]
         }
       },
