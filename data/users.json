@@ -3781,6 +3781,14 @@
       "handicap": 16,
       "trips": {},
       "friends": []
+    },
+    {
+      "username": "drewmiller",
+      "password": "$2b$10$M3aEmREBHHyv/SxZZcCbz.ko9JIyHuTwajbrFWPdr47kgFDtlVoYS",
+      "name": "Drew Miller",
+      "handicap": 14,
+      "trips": {},
+      "friends": []
     }
   ]
 }
