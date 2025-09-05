@@ -3779,7 +3779,16 @@
       "password": "$2b$10$8ISsRzbszYUgCFCEWg6SDu5HBn3zluXkKEaDBzTQkI7Zml/KjX1jO",
       "name": "Nick Patterson",
       "handicap": 16,
-      "trips": {},
+      "trips": {
+        "TRIP_DR3DX5": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     },
     {
