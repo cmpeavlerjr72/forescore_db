@@ -1822,6 +1822,14 @@
             0,
             0
           ]
+        },
+        "TRIP_DR3DX5": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
         }
       },
       "friends": []
