@@ -4019,7 +4019,16 @@
       "password": "$2b$10$sZuns/ot8Z97wNxxZC8FeemEbJQLqMjAzanUnaXlI8HNa8v3UKjUy",
       "name": "Jacob Conley",
       "handicap": 7,
-      "trips": {},
+      "trips": {
+        "TRIP_WIVPM9": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
