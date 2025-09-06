@@ -3977,7 +3977,16 @@
       "password": "$2b$10$gQFroSNORnmiU5PVlgeJZOut92i6uRFELKL7y5iELwVG3M8bhkSIm",
       "name": "Tumah",
       "handicap": 11,
-      "trips": {},
+      "trips": {
+        "TRIP_WIVPM9": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     }
   ]
