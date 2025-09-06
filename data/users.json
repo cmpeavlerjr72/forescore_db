@@ -4865,6 +4865,14 @@
           "projected_points": [
             4
           ]
+        },
+        "TRIP_6LMELX": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
         }
       },
       "friends": []
