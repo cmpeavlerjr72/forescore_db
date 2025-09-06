@@ -4039,7 +4039,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "mp1003",
               "scores": [
                 0
               ],
@@ -4054,7 +4054,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "Will21",
               "scores": [
                 0
               ],
@@ -4069,7 +4069,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "drewmiller",
               "scores": [
                 0
               ],
@@ -4084,7 +4084,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "pwhitney22@icloud.com",
               "scores": [
                 0
               ],
@@ -4099,7 +4099,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "Gtumah",
               "scores": [
                 0
               ],
@@ -4114,7 +4114,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "Wellsn1010",
               "scores": [
                 0
               ],
@@ -4129,7 +4129,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "averysmoak10",
               "scores": [
                 0
               ],
@@ -4144,7 +4144,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "jmconley",
               "scores": [
                 0
               ],
@@ -4159,7 +4159,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "nickpatt",
               "scores": [
                 0
               ],
@@ -4174,7 +4174,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "Lmconley",
               "scores": [
                 0
               ],
@@ -4197,7 +4197,8 @@
         "jmconley",
         "nickpatt",
         "Lmconley"
-      ]
+      ],
+      "lineups": {}
     }
   }
 }
