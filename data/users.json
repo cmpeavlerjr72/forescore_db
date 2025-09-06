@@ -3960,7 +3960,16 @@
       "password": "$2b$10$wQUfOcOHIKhVxHtFdE0Qze0vCUJH2xQVQTg9V/LdG.ntxYgrRwvhK",
       "name": "Preston Whitney",
       "handicap": 11,
-      "trips": {},
+      "trips": {
+        "TRIP_WIVPM9": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
+        }
+      },
       "friends": []
     },
     {
