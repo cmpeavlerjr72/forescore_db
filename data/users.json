@@ -4351,6 +4351,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "Lucas",
+      "password": "$2b$10$7y6cJtGfNoSV.9W4bDwd5.3Amyhcsh6sjvWxq6ALjKecvVL8qCVUe",
+      "name": "Lucasc",
+      "handicap": 17.8,
+      "trips": {},
+      "friends": []
     }
   ]
 }
