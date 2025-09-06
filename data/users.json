@@ -3988,6 +3988,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "Wellsn1010",
+      "password": "$2b$10$hOyt7TxoEDSLSTI0rJ.bh.A9F8QifJ55qQA3Tfm3SNJuykPeVpG42",
+      "name": "Noah",
+      "handicap": 11,
+      "trips": {},
+      "friends": []
     }
   ]
 }
