@@ -4218,7 +4218,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "mp1003",
               "scores": [
                 0
               ],
@@ -4228,7 +4228,7 @@
             },
             {
               "id": 2,
-              "name": "Player 2",
+              "name": "Wellsn1010",
               "scores": [
                 0
               ],
@@ -4238,7 +4238,7 @@
             },
             {
               "id": 3,
-              "name": "Player 3",
+              "name": "",
               "scores": [
                 0
               ],
@@ -4248,7 +4248,7 @@
             },
             {
               "id": 4,
-              "name": "Player 4",
+              "name": "",
               "scores": [
                 0
               ],
@@ -4258,7 +4258,7 @@
             },
             {
               "id": 5,
-              "name": "Player 5",
+              "name": "",
               "scores": [
                 0
               ],
@@ -4273,7 +4273,7 @@
           "players": [
             {
               "id": 1,
-              "name": "Player 1",
+              "name": "jmconley",
               "scores": [
                 0
               ],
@@ -4283,7 +4283,7 @@
             },
             {
               "id": 2,
-              "name": "Player 2",
+              "name": "Will21",
               "scores": [
                 0
               ],
@@ -4293,7 +4293,7 @@
             },
             {
               "id": 3,
-              "name": "Player 3",
+              "name": "drewmiller",
               "scores": [
                 0
               ],
@@ -4303,7 +4303,7 @@
             },
             {
               "id": 4,
-              "name": "Player 4",
+              "name": "",
               "scores": [
                 0
               ],
@@ -4313,7 +4313,7 @@
             },
             {
               "id": 5,
-              "name": "Player 5",
+              "name": "",
               "scores": [
                 0
               ],
@@ -4332,7 +4332,8 @@
         "jmconley",
         "Wellsn1010",
         "Gtumah"
-      ]
+      ],
+      "lineups": {}
     }
   }
 }
