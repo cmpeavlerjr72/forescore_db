@@ -4013,6 +4013,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "jmconley",
+      "password": "$2b$10$sZuns/ot8Z97wNxxZC8FeemEbJQLqMjAzanUnaXlI8HNa8v3UKjUy",
+      "name": "Jacob Conley",
+      "handicap": 7,
+      "trips": {},
+      "friends": []
     }
   ]
 }
