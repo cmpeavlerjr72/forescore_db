@@ -4038,6 +4038,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "Lmconley",
+      "password": "$2b$10$2Iq/0l1ANXJ3MXOhoSFwQOxwtWaQdJOMMp8g23W3eHGQ281EjaWsO",
+      "name": "Lucas Conley ",
+      "handicap": 17.8,
+      "trips": {},
+      "friends": []
     }
   ]
 }
