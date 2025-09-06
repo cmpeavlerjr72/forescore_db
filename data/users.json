@@ -3893,6 +3893,14 @@
           "projected_points": [
             2.4
           ]
+        },
+        "TRIP_WIVPM9": {
+          "raw_scores": [
+            []
+          ],
+          "net_scores": [
+            []
+          ]
         }
       },
       "friends": []
