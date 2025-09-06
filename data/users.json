@@ -3954,6 +3954,14 @@
         }
       },
       "friends": []
+    },
+    {
+      "username": "pwhitney22@icloud.com",
+      "password": "$2b$10$wQUfOcOHIKhVxHtFdE0Qze0vCUJH2xQVQTg9V/LdG.ntxYgrRwvhK",
+      "name": "Preston Whitney",
+      "handicap": 11,
+      "trips": {},
+      "friends": []
     }
   ]
 }
